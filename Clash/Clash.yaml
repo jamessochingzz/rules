@@ -1,10 +1,12 @@
 proxy-groups:
   - name: Proxies
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
     type: select
     include-all: true
     proxies:
       - DIRECT
   - name: Apple
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
     type: select
     proxies:
       - Proxies
@@ -12,6 +14,7 @@ proxy-groups:
       - Hong Kong
       - United States
   - name: Netflix
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
     type: select
     include-all: true
     filter: (?i)EG|TR|NG|埃及|土耳其|尼日利亚
@@ -21,6 +24,7 @@ proxy-groups:
       - Hong Kong
       - Singapore
   - name: Disney
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Disney%2B.png
     type: select
     proxies:
       - Proxies
@@ -28,6 +32,7 @@ proxy-groups:
       - Hong Kong
       - Singapore
   - name: PrimeVideo
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Prime_Video.png
     type: select
     include-all: true
     filter: (?i)CA|TR|加拿大|土耳其
@@ -38,6 +43,7 @@ proxy-groups:
       - United States
       - Japan
   - name: Max
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HBO_Max.png
     type: select
     include-all: true
     filter: (?i)AR|阿根廷
@@ -49,12 +55,14 @@ proxy-groups:
       - United States
       - Taiwan
   - name: YouTube
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
     type: select
     include-all: true
     proxies:
       - Proxies
       - DIRECT
   - name: Spotify
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Spotify.png
     type: select
     include-all: true
     filter: (?i)TR|土耳其|圣何塞
@@ -63,6 +71,7 @@ proxy-groups:
       - DIRECT
       - Hong Kong
   - name: TikTok
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TikTok.png
     type: select
     include-all: true
     filter: (?i)圣何塞
@@ -73,6 +82,7 @@ proxy-groups:
       - Japan
       - Taiwan
   - name: F1
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Rocket.png
     type: select
     include-all: true
     filter: (?i)圣何塞
@@ -81,6 +91,7 @@ proxy-groups:
       - DIRECT
       - United States
   - name: Emby_Makima
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Emby.png
     type: select
     include-all: true
     filter: (?i)圣何塞
@@ -90,6 +101,7 @@ proxy-groups:
       - Hong Kong
       - United States
   - name: Emby_HK-BEUP
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Emby.png
     type: select
     include-all: true
     filter: (?i)Emby
@@ -98,12 +110,14 @@ proxy-groups:
       - Proxies
       - Hong Kong
   - name: HKMedia
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TVB.png
     type: select
     proxies:
       - Proxies
       - DIRECT
       - Hong Kong
   - name: DomesticMedia
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/bilibili.png
     type: select
     include-all: true
     filter: (?i)MO|CN|澳门
@@ -113,6 +127,7 @@ proxy-groups:
       - Hong Kong
       - Taiwan
   - name: Porn
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Pornhub.png
     type: select
     proxies:
       - Proxies
@@ -120,6 +135,7 @@ proxy-groups:
       - Hong Kong
       - Japan
   - name: AI
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Bot.png
     type: select
     include-all: true
     filter: (?i)圣何塞
@@ -129,24 +145,28 @@ proxy-groups:
       - United States
       - Japan
   - name: Facebook
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Facebook.png
     type: select
     include-all: true
     proxies:
       - Proxies
       - DIRECT
   - name: Microsoft
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
     type: select
     include-all: true
     proxies:
       - DIRECT
       - Proxies
   - name: LinkedIn
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Lab.png
     type: select
     include-all: true
     proxies:
       - Proxies
       - DIRECT
   - name: PayPal
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/PayPal.png
     type: select
     include-all: true
     filter: (?i)圣何塞
@@ -156,18 +176,21 @@ proxy-groups:
       - Hong Kong
       - United States
   - name: Steam
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
     type: select
     include-all: true
     proxies:
       - Proxies
       - DIRECT
   - name: Speedtest
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Speedtest.png
     type: select
     include-all: true
     proxies:
       - Proxies
       - DIRECT
   - name: WYBM
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Domestic.png
     type: select
     include-all: true
     filter: (?i)圣何塞
@@ -175,35 +198,41 @@ proxy-groups:
       - DIRECT
       - Proxies
   - name: Others
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
     type: select
     proxies:
       - Proxies
       - DIRECT
   - name: Hong Kong
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
     type: select
     include-all: true
     filter: (?i)HK|香港
     proxies:
       - DIRECT
   - name: Singapore
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
     type: select
     include-all: true
     filter: (?i)SG|新加坡
     proxies:
       - DIRECT
   - name: United States
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
     type: select
     include-all: true
     filter: (?i)US|美国
     proxies:
       - DIRECT
   - name: Japan
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
     type: select
     include-all: true
     filter: (?i)JP|日本
     proxies:
       - DIRECT
   - name: Taiwan
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Taiwan.png
     type: select
     include-all: true
     filter: (?i)TW|台湾
