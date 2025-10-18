@@ -4,6 +4,13 @@ proxy-groups:
     include-all: true
     proxies:
       - DIRECT
+  - name: Apple
+    type: select
+    proxies:
+      - Proxies
+      - DIRECT
+      - Hong Kong
+      - United States
   - name: Netflix
     type: select
     include-all: true
@@ -73,13 +80,6 @@ proxy-groups:
       - Proxies
       - DIRECT
       - United States
-  - name: Apple
-    type: select
-    proxies:
-      - Proxies
-      - DIRECT
-      - Hong Kong
-      - United States
   - name: Emby_Makima
     type: select
     include-all: true
@@ -89,7 +89,7 @@ proxy-groups:
       - Proxies
       - Hong Kong
       - United States
-  - name: Emby_Beup
+  - name: Emby_HK-BEUP
     type: select
     include-all: true
     filter: (?i)Emby
@@ -167,13 +167,13 @@ proxy-groups:
     proxies:
       - Proxies
       - DIRECT
-  - name: XSJ
+  - name: WYBM
     type: select
     include-all: true
     filter: (?i)圣何塞
     proxies:
-      - Proxies
       - DIRECT
+      - Proxies
   - name: Others
     type: select
     proxies:
@@ -211,30 +211,37 @@ proxy-groups:
       - DIRECT
 
 rule-providers:
-  XSJ:
-    url: https://git.wybm.cyou/jamessoching/rules/raw/master/XSJ.list
-    path: ./ruleset/XSJ.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
   LocalAreaNetwork:
-    url: https://git.wybm.cyou/jamessoching/rules/raw/master/LocalAreaNetwork.list
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/LocalAreaNetwork.list
     path: ./ruleset/LocalAreaNetwork.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   Manual_Direct:
-    url: https://git.wybm.cyou/jamessoching/rules/raw/master/Manual_Direct.list
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Manual_Direct.lis
     path: ./ruleset/Manual_Direct.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   Manual_Proxies:
-    url: https://git.wybm.cyou/jamessoching/rules/raw/master/Manual_Proxies.list
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Manual_Proxies.list
     path: ./ruleset/Manual_Proxies.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  WYBM:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/WYBM.list
+    path: ./ruleset/WYBM.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Apple:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Apple/Apple_All.list
+    path: ./ruleset/Apple.list
     behavior: classical
     interval: 86400
     format: text
@@ -289,29 +296,22 @@ rule-providers:
     format: text
     type: http
   F1:
-    url: https://git.wybm.cyou/jamessoching/rules/raw/master/F1.list
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/F1.list
     path: ./ruleset/F1.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Apple:
-    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Apple/Apple_All.list
-    path: ./ruleset/Apple.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
   Emby_Makima:
-    url: https://git.wybm.cyou/jamessoching/rules/raw/master/Emby_Makima.list
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_Makima.list
     path: ./ruleset/Emby_Makima.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Emby_Beup:
-    url: https://git.wybm.cyou/jamessoching/rules/raw/master/Emby_Beup.list
-    path: ./ruleset/Emby_Beup.list
+  Emby_HK-BEUP:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.list
+    path: ./ruleset/Emby_HK-BEUP.list
     behavior: classical
     interval: 86400
     format: text
@@ -437,10 +437,11 @@ rule-providers:
     type: http
 
 rules:
-  - "RULE-SET,XSJ,XSJ"
   - "RULE-SET,LocalAreaNetwork,DIRECT"
   - "RULE-SET,Manual_Direct,DIRECT"
   - "RULE-SET,Manual_Proxies,Proxies"
+  - "RULE-SET,WYBM,WYBM"
+  - "RULE-SET,Apple,Apple"
   - "RULE-SET,Netflix,Netflix"
   - "RULE-SET,Disney,Disney"
   - "RULE-SET,PrimeVideo,PrimeVideo"
@@ -449,9 +450,8 @@ rules:
   - "RULE-SET,Spotify,Spotify"
   - "RULE-SET,TikTok,TikTok"
   - "RULE-SET,F1,F1"
-  - "RULE-SET,Apple,Apple"
   - "RULE-SET,Emby_Makima,Emby_Makima"
-  - "RULE-SET,Emby_Beup,Emby_Beup"
+  - "RULE-SET,Emby_HK-BEUP,Emby_HK-BEUP"
   - "RULE-SET,myTVSUPER,HKMedia"
   - "RULE-SET,ViuTV,HKMedia"
   - "RULE-SET,JOOX,HKMedia"
