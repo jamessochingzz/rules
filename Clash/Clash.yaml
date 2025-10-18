@@ -1,0 +1,473 @@
+proxy-groups:
+  - name: Proxies
+    type: select
+    include-all: true
+    proxies:
+      - DIRECT
+  - name: Netflix
+    type: select
+    include-all: true
+    filter: (?i)EG|TR|NG|埃及|土耳其|尼日利亚
+    proxies:
+      - Proxies
+      - DIRECT
+      - Hong Kong
+      - Singapore
+  - name: Disney
+    type: select
+    proxies:
+      - Proxies
+      - DIRECT
+      - Hong Kong
+      - Singapore
+  - name: PrimeVideo
+    type: select
+    include-all: true
+    filter: (?i)CA|TR|加拿大|土耳其
+    proxies:
+      - Proxies
+      - DIRECT
+      - Hong Kong
+      - United States
+      - Japan
+  - name: Max
+    type: select
+    include-all: true
+    filter: (?i)AR|阿根廷
+    proxies:
+      - Proxies
+      - DIRECT
+      - Hong Kong
+      - Singapore
+      - United States
+      - Taiwan
+  - name: YouTube
+    type: select
+    include-all: true
+    proxies:
+      - Proxies
+      - DIRECT
+  - name: Spotify
+    type: select
+    include-all: true
+    filter: (?i)TR|土耳其|圣何塞
+    proxies:
+      - Proxies
+      - DIRECT
+      - Hong Kong
+  - name: TikTok
+    type: select
+    include-all: true
+    filter: (?i)圣何塞
+    proxies:
+      - Proxies
+      - DIRECT
+      - United States
+      - Japan
+      - Taiwan
+  - name: F1
+    type: select
+    include-all: true
+    filter: (?i)圣何塞
+    proxies:
+      - Proxies
+      - DIRECT
+      - United States
+  - name: Apple
+    type: select
+    proxies:
+      - Proxies
+      - DIRECT
+      - Hong Kong
+      - United States
+  - name: Emby_Makima
+    type: select
+    include-all: true
+    filter: (?i)圣何塞
+    proxies:
+      - DIRECT
+      - Proxies
+      - Hong Kong
+      - United States
+  - name: Emby_Beup
+    type: select
+    include-all: true
+    filter: (?i)Emby
+    proxies:
+      - DIRECT
+      - Proxies
+      - Hong Kong
+  - name: HKMedia
+    type: select
+    proxies:
+      - Proxies
+      - DIRECT
+      - Hong Kong
+  - name: DomesticMedia
+    type: select
+    include-all: true
+    filter: (?i)MO|CN|澳门
+    proxies:
+      - DIRECT
+      - Proxies
+      - Hong Kong
+      - Taiwan
+  - name: Porn
+    type: select
+    proxies:
+      - Proxies
+      - DIRECT
+      - Hong Kong
+      - Japan
+  - name: AI
+    type: select
+    include-all: true
+    filter: (?i)圣何塞
+    proxies:
+      - Proxies
+      - DIRECT
+      - United States
+      - Japan
+  - name: Facebook
+    type: select
+    include-all: true
+    proxies:
+      - Proxies
+      - DIRECT
+  - name: Microsoft
+    type: select
+    include-all: true
+    proxies:
+      - DIRECT
+      - Proxies
+  - name: LinkedIn
+    type: select
+    include-all: true
+    proxies:
+      - Proxies
+      - DIRECT
+  - name: PayPal
+    type: select
+    include-all: true
+    filter: (?i)圣何塞
+    proxies:
+      - Proxies
+      - DIRECT
+      - Hong Kong
+      - United States
+  - name: Steam
+    type: select
+    include-all: true
+    proxies:
+      - Proxies
+      - DIRECT
+  - name: Speedtest
+    type: select
+    include-all: true
+    proxies:
+      - Proxies
+      - DIRECT
+  - name: XSJ
+    type: select
+    include-all: true
+    filter: (?i)圣何塞
+    proxies:
+      - Proxies
+      - DIRECT
+  - name: Others
+    type: select
+    proxies:
+      - Proxies
+      - DIRECT
+  - name: Hong Kong
+    type: select
+    include-all: true
+    filter: (?i)HK|香港
+    proxies:
+      - DIRECT
+  - name: Singapore
+    type: select
+    include-all: true
+    filter: (?i)SG|新加坡
+    proxies:
+      - DIRECT
+  - name: United States
+    type: select
+    include-all: true
+    filter: (?i)US|美国
+    proxies:
+      - DIRECT
+  - name: Japan
+    type: select
+    include-all: true
+    filter: (?i)JP|日本
+    proxies:
+      - DIRECT
+  - name: Taiwan
+    type: select
+    include-all: true
+    filter: (?i)TW|台湾
+    proxies:
+      - DIRECT
+
+rule-providers:
+  XSJ:
+    url: https://git.wybm.cyou/jamessoching/rules/raw/master/XSJ.list
+    path: ./ruleset/XSJ.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  LocalAreaNetwork:
+    url: https://git.wybm.cyou/jamessoching/rules/raw/master/LocalAreaNetwork.list
+    path: ./ruleset/LocalAreaNetwork.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Manual_Direct:
+    url: https://git.wybm.cyou/jamessoching/rules/raw/master/Manual_Direct.list
+    path: ./ruleset/Manual_Direct.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Manual_Proxies:
+    url: https://git.wybm.cyou/jamessoching/rules/raw/master/Manual_Proxies.list
+    path: ./ruleset/Manual_Proxies.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Netflix:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Netflix/Netflix.list
+    path: ./ruleset/Netflix.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Disney:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Disney/Disney.list
+    path: ./ruleset/Disney.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  PrimeVideo:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AmazonPrimeVideo/AmazonPrimeVideo.list
+    path: ./ruleset/PrimeVideo.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Max:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/HBO/HBO.list
+    path: ./ruleset/Max.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  YouTube:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/YouTube/YouTube.list
+    path: ./ruleset/YouTube.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Spotify:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Spotify/Spotify.list
+    path: ./ruleset/Spotify.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  TikTok:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/TikTok/TikTok.list
+    path: ./ruleset/TikTok.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  F1:
+    url: https://git.wybm.cyou/jamessoching/rules/raw/master/F1.list
+    path: ./ruleset/F1.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Apple:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Apple/Apple_All.list
+    path: ./ruleset/Apple.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Emby_Makima:
+    url: https://git.wybm.cyou/jamessoching/rules/raw/master/Emby_Makima.list
+    path: ./ruleset/Emby_Makima.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Emby_Beup:
+    url: https://git.wybm.cyou/jamessoching/rules/raw/master/Emby_Beup.list
+    path: ./ruleset/Emby_Beup.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  myTVSUPER:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/myTVSUPER/myTVSUPER.list
+    path: ./ruleset/myTVSUPER.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ViuTV:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ViuTV/ViuTV.list
+    path: ./ruleset/ViuTV.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  JOOX:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/JOOX/JOOX.list
+    path: ./ruleset/JOOX.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  KKBOX:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/KKBOX/KKBOX.list
+    path: ./ruleset/KKBOX.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BiliBili:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/BiliBili/BiliBili.list
+    path: ./ruleset/BiliBili.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  iQIYI:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/iQIYI/iQIYI.list
+    path: ./ruleset/iQIYI.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  TencentVideo:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/TencentVideo/TencentVideo.list
+    path: ./ruleset/TencentVideo.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Youku:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Youku/Youku.list
+    path: ./ruleset/Youku.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Porn:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/Repcz/Tool/refs/heads/X/Surge/Rules/Porn.list
+    path: ./ruleset/Porn.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  AI:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/Repcz/Tool/refs/heads/X/Surge/Rules/AI.list
+    path: ./ruleset/AI.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Facebook:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Facebook/Facebook.list
+    path: ./ruleset/Facebook.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Microsoft:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Microsoft/Microsoft.list
+    path: ./ruleset/Microsoft.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  LinkedIn:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/LinkedIn/LinkedIn.list
+    path: ./ruleset/LinkedIn.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  PayPal:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/PayPal/PayPal.list
+    path: ./ruleset/PayPal.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Steam:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Steam/Steam.list
+    path: ./ruleset/Steam.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Speedtest:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Speedtest/Speedtest.list
+    path: ./ruleset/Speedtest.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Direct:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Direct/Direct.list
+    path: ./ruleset/Direct.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+
+rules:
+  - "RULE-SET,XSJ,XSJ"
+  - "RULE-SET,LocalAreaNetwork,DIRECT"
+  - "RULE-SET,Manual_Direct,DIRECT"
+  - "RULE-SET,Manual_Proxies,Proxies"
+  - "RULE-SET,Netflix,Netflix"
+  - "RULE-SET,Disney,Disney"
+  - "RULE-SET,PrimeVideo,PrimeVideo"
+  - "RULE-SET,Max,Max"
+  - "RULE-SET,YouTube,YouTube"
+  - "RULE-SET,Spotify,Spotify"
+  - "RULE-SET,TikTok,TikTok"
+  - "RULE-SET,F1,F1"
+  - "RULE-SET,Apple,Apple"
+  - "RULE-SET,Emby_Makima,Emby_Makima"
+  - "RULE-SET,Emby_Beup,Emby_Beup"
+  - "RULE-SET,myTVSUPER,HKMedia"
+  - "RULE-SET,ViuTV,HKMedia"
+  - "RULE-SET,JOOX,HKMedia"
+  - "RULE-SET,KKBOX,HKMedia"
+  - "RULE-SET,BiliBili,DomesticMedia"
+  - "RULE-SET,iQIYI,DomesticMedia"
+  - "RULE-SET,TencentVideo,DomesticMedia"
+  - "RULE-SET,Youku,DomesticMedia"
+  - "RULE-SET,Porn,Porn"
+  - "RULE-SET,AI,AI"
+  - "RULE-SET,Facebook,Facebook"
+  - "RULE-SET,Microsoft,Microsoft"
+  - "RULE-SET,LinkedIn,LinkedIn"
+  - "RULE-SET,PayPal,PayPal"
+  - "RULE-SET,Steam,Steam"
+  - "RULE-SET,Speedtest,Speedtest"
+  - "RULE-SET,Direct,DIRECT"
+  - "GEOIP,CN,DIRECT"
+  - "MATCH,Others"
