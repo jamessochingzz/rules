@@ -219,7 +219,7 @@ rule-providers:
     format: text
     type: http
   Manual_Direct:
-    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Manual_Direct.lis
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Manual_Direct.list
     path: ./ruleset/Manual_Direct.list
     behavior: classical
     interval: 86400
