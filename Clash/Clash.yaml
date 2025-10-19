@@ -5,8 +5,6 @@ proxy-groups:
     #include-all: true
     proxies:
       - DIRECT
-    use:
-      - GLOBAL
   - name: Apple
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
     type: select
