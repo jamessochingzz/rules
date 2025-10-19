@@ -17,7 +17,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
     type: select
     include-all: true
-    filter: (?i)EG|TR|NG|埃及|土耳其|尼日利亚
+    filter: EG|TR|NG|埃及|土耳其|尼日利亚
     proxies:
       - Proxies
       - DIRECT
@@ -35,7 +35,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Prime_Video.png
     type: select
     include-all: true
-    filter: (?i)CA|TR|加拿大|土耳其
+    filter: CA|TR|加拿大|土耳其
     proxies:
       - Proxies
       - DIRECT
@@ -46,7 +46,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HBO_Max.png
     type: select
     include-all: true
-    filter: (?i)AR|阿根廷
+    filter: AR|阿根廷
     proxies:
       - Proxies
       - DIRECT
@@ -65,7 +65,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Spotify.png
     type: select
     include-all: true
-    filter: (?i)TR|土耳其|圣何塞
+    filter: TR|土耳其|圣何塞
     proxies:
       - Proxies
       - DIRECT
@@ -74,7 +74,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TikTok.png
     type: select
     include-all: true
-    filter: (?i)圣何塞
+    filter: 圣何塞
     proxies:
       - Proxies
       - DIRECT
@@ -85,7 +85,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Rocket.png
     type: select
     include-all: true
-    filter: (?i)圣何塞
+    filter: 圣何塞
     proxies:
       - Proxies
       - DIRECT
@@ -94,7 +94,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Emby.png
     type: select
     include-all: true
-    filter: (?i)圣何塞
+    filter: 圣何塞
     proxies:
       - DIRECT
       - Proxies
@@ -104,7 +104,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Emby.png
     type: select
     include-all: true
-    filter: (?i)Emby
+    filter: Emby
     proxies:
       - DIRECT
       - Proxies
@@ -120,7 +120,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/bilibili.png
     type: select
     include-all: true
-    filter: (?i)MO|CN|澳门
+    filter: MO|CN|澳门
     proxies:
       - DIRECT
       - Proxies
@@ -138,7 +138,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Bot.png
     type: select
     include-all: true
-    filter: (?i)圣何塞
+    filter: 圣何塞
     proxies:
       - Proxies
       - DIRECT
@@ -169,7 +169,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/PayPal.png
     type: select
     include-all: true
-    filter: (?i)圣何塞
+    filter: 圣何塞
     proxies:
       - Proxies
       - DIRECT
@@ -193,7 +193,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Domestic.png
     type: select
     include-all: true
-    filter: (?i)圣何塞
+    filter: 圣何塞
     proxies:
       - DIRECT
       - Proxies
@@ -207,35 +207,35 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
     type: select
     include-all: true
-    filter: (?i)HK|香港
+    filter: HK|香港
     proxies:
       - DIRECT
   - name: Singapore
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
     type: select
     include-all: true
-    filter: (?i)SG|新加坡
+    filter: SG|新加坡
     proxies:
       - DIRECT
   - name: United States
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
     type: select
     include-all: true
-    filter: (?i)US|美国
+    filter: US|美国
     proxies:
       - DIRECT
   - name: Japan
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
     type: select
     include-all: true
-    filter: (?i)JP|日本
+    filter: JP|日本
     proxies:
       - DIRECT
   - name: Taiwan
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Taiwan.png
     type: select
     include-all: true
-    filter: (?i)TW|台湾
+    filter: TW|台湾
     proxies:
       - DIRECT
 
