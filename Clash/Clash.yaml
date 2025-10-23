@@ -3,6 +3,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
     type: select
     include-all: true
+    sort-by: original
     proxies:
       - DIRECT
   - name: Apple
