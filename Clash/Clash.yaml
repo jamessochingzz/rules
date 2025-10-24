@@ -58,10 +58,15 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
     type: select
     include-all: true
-    filter: ^(?=.*圣何塞)|^(?!.*(HK|SG|US|JP|TW|香港|新加坡|美国|日本|台湾)).*$
+    filter: ^(?=.*圣何塞)|^(?!.*(HK|SG|US|JP|TW|香港|新加坡|美国|日本|台湾|Emby)).*$
     proxies:
       - Proxies
       - DIRECT
+      - Hong Kong
+      - United States
+      - Singapore
+      - Japan
+      - Taiwan
   - name: Spotify
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Spotify.png
     type: select
@@ -149,23 +154,41 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Facebook.png
     type: select
     include-all: true
+    filter: ^(?=.*圣何塞)|^(?!.*(HK|SG|US|JP|TW|香港|新加坡|美国|日本|台湾|Emby)).*$
     proxies:
       - Proxies
       - DIRECT
+      - Hong Kong
+      - United States
+      - Singapore
+      - Japan
+      - Taiwan
   - name: Microsoft
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
     type: select
     include-all: true
+    filter: ^(?=.*圣何塞)|^(?!.*(HK|SG|US|JP|TW|香港|新加坡|美国|日本|台湾|Emby)).*$
     proxies:
       - DIRECT
       - Proxies
+      - Hong Kong
+      - United States
+      - Singapore
+      - Japan
+      - Taiwan
   - name: LinkedIn
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Lab.png
     type: select
     include-all: true
+    filter: ^(?=.*圣何塞)|^(?!.*(HK|SG|US|JP|TW|香港|新加坡|美国|日本|台湾|Emby)).*$
     proxies:
       - Proxies
       - DIRECT
+      - Hong Kong
+      - United States
+      - Singapore
+      - Japan
+      - Taiwan
   - name: PayPal
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/PayPal.png
     type: select
@@ -180,9 +203,15 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
     type: select
     include-all: true
+    filter: ^(?=.*圣何塞)|^(?!.*(HK|SG|US|JP|TW|香港|新加坡|美国|日本|台湾|Emby)).*$
     proxies:
       - Proxies
       - DIRECT
+      - Hong Kong
+      - United States
+      - Singapore
+      - Japan
+      - Taiwan
   - name: Speedtest
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Speedtest.png
     type: select
@@ -508,4 +537,4 @@ rules:
   - "RULE-SET,Speedtest,Speedtest"
   - "RULE-SET,Direct,DIRECT"
   - "GEOIP,CN,DIRECT"
-  - "MATCH,Others"
+  - "MATCH,Proxies"
