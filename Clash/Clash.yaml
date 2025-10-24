@@ -227,12 +227,6 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxies
-  - name: Others
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
-    type: select
-    proxies:
-      - Proxies
-      - DIRECT
   - name: Hong Kong
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
     type: select
