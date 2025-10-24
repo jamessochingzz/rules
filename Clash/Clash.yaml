@@ -58,6 +58,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
     type: select
     include-all: true
+    filter: ^(?=.*圣何塞)|^(?!.*(HK|SG|US|JP|TW|香港|新加坡|美国|日本|台湾)).*$
     proxies:
       - Proxies
       - DIRECT
