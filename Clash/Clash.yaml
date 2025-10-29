@@ -35,7 +35,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Prime_Video.png
     type: select
     include-all: true
-    filter: CA|TR|加拿大|土耳其
+    filter: EG|CA|TR|埃及|加拿大|土耳其
     proxies:
       - Proxies
       - DIRECT
