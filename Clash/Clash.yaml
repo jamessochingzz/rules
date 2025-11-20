@@ -23,7 +23,7 @@ proxy-groups:
       - DIRECT
       - Hong Kong
       - Singapore
-  //- name: Disney
+  - name: Disney
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Disney%2B.png
     type: select
     proxies:
@@ -42,7 +42,7 @@ proxy-groups:
       - Hong Kong
       - United States
       - Japan
-  //- name: Max
+  - name: HBO
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HBO_Max.png
     type: select
     include-all: true
@@ -320,9 +320,9 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  Max:
+  HBO:
     url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/HBO/HBO.list
-    path: ./ruleset/Max.list
+    path: ./ruleset/HBO.list
     behavior: classical
     interval: 86400
     format: text
@@ -505,7 +505,7 @@ rules:
   - "RULE-SET,Netflix,Netflix"
   - "RULE-SET,Disney,Disney"
   - "RULE-SET,PrimeVideo,PrimeVideo"
-  - "RULE-SET,Max,Max"
+  - "RULE-SET,HBO,HBO"
   - "RULE-SET,YouTube,YouTube"
   - "RULE-SET,Spotify,Spotify"
   - "RULE-SET,TikTok,TikTok"
