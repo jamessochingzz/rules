@@ -23,7 +23,7 @@ proxy-groups:
       - DIRECT
       - Hong Kong
       - Singapore
-  - name: Disney
+  //- name: Disney
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Disney%2B.png
     type: select
     proxies:
@@ -42,7 +42,7 @@ proxy-groups:
       - Hong Kong
       - United States
       - Japan
-  - name: Max
+  //- name: Max
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HBO_Max.png
     type: select
     include-all: true
