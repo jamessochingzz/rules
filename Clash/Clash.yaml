@@ -150,6 +150,19 @@ proxy-groups:
       - DIRECT
       - United States
       - Japan
+  - name: Google
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Google.png
+    type: select
+    include-all: true
+    filter: ^(?=.*圣何塞)|^(?!.*(HK|SG|US|JP|TW|香港|新加坡|美国|日本|台湾|Emby)).*$
+    proxies:
+      - Proxies
+      - DIRECT
+      - Hong Kong
+      - United States
+      - Singapore
+      - Japan
+      - Taiwan
   - name: Facebook
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Facebook.png
     type: select
@@ -522,7 +535,7 @@ rules:
   - "RULE-SET,Youku,DomesticMedia"
   - "RULE-SET,Porn,Porn"
   - "RULE-SET,AI,AI"
-  - "RULE-SET,Google,Proxies"
+  - "RULE-SET,Google,Google"
   - "RULE-SET,Facebook,Facebook"
   - "RULE-SET,Microsoft,Microsoft"
   - "RULE-SET,LinkedIn,LinkedIn"
