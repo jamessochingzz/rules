@@ -1,6 +1,6 @@
 policy_groups:
 - select:
-    name: Proxy
+    name: PROXY
     policies:
     - DIRECT
     - AllinOne
@@ -18,4 +18,32 @@ rules:
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/LocalAreaNetwork.list
     policy: DIRECT
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Manual_Direct.list
+    policy: DIRECT
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Manual_Proxies.list
+    policy: PROXY
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/WYBM.list
+    policy: WYBM
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AppleProxy/AppleProxy.list
+    policy: United States
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Apple/Apple_All.list
+    policy: Apple
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Netflix/Netflix.list
+    policy: Netflix
+    update_interval: 86400
+//- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Disney/Disney.list
+    policy: Disney
     update_interval: 86400
