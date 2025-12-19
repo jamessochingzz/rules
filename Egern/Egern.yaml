@@ -1,5 +1,5 @@
 auto_update:
-  url: http://example.com/
+  url: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Egern/Egern.yaml
   interval: 86400
 
 policy_groups:
@@ -18,6 +18,7 @@ policy_groups:
     - http://xsj.wybm.cyou:30010/T3B9dgzBzdRbBF8Aqx7P/download/collection/James?target=Egern
     update_interval: 86400
     hidden: true
+
 rules:
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/LocalAreaNetwork.list
