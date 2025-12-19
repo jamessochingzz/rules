@@ -52,3 +52,108 @@ rules:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Disney/Disney.list
     policy: Disney
     update_interval: 86400
+//- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/HBO/HBO.list
+    policy: HBO
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/YouTube/YouTube.list
+    policy: YouTube
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Spotify/Spotify.list
+    policy: Spotify
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/TikTok/TikTok.list
+    policy: TikTok
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/F1.list
+    policy: F1
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_Makima.list
+    policy: Emby_Makima
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.list,Emby_HK-BEUP.list
+    policy: Emby_HK-BEUP
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/myTVSUPER/myTVSUPER.list
+    policy: HKMedia
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ViuTV/ViuTV.list
+    policy: HKMedia
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/JOOX/JOOX.list
+    policy: HKMedia
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/KKBOX/KKBOX.list
+    policy: HKMedia
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/BiliBili/BiliBili.list
+    policy: DomesticMedia
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/iQIYI/iQIYI.list
+    policy: DomesticMedia
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/TencentVideo/TencentVideo.list
+    policy: DomesticMedia
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Youku/Youku.list
+    policy: DomesticMedia
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/Repcz/Tool/refs/heads/X/Surge/Rules/Porn.list
+    policy: Porn
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/Repcz/Tool/refs/heads/X/Surge/Rules/AI.list
+    policy: AI
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Google/Google.list
+    policy: Google
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Facebook/Facebook.list
+    policy: Facebook
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Microsoft/Microsoft.list
+    policy: Microsoft
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/LinkedIn/LinkedIn.list
+    policy: LinkedIn
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/PayPal/PayPal.list
+    policy: PayPal
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Steam/Steam.list
+    policy: Steam
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Speedtest/Speedtest.list
+    policy: Speedtest
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Direct/Direct.list
+    policy: DIRECT
+    update_interval: 86400
+- geoip:
+    match: CN
+    policy: DIRECT
+- default:
+    policy: PROXY
