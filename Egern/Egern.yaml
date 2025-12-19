@@ -104,7 +104,7 @@ rules:
     policy: Emby_Makima
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.list,Emby_HK-BEUP.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.list
     policy: Emby_HK-BEUP
     update_interval: 86400
 - rule_set:
