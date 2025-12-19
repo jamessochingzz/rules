@@ -1,1 +1,9 @@
+policy_groups:
+- select:
+    name: Proxy
+    policies:
+    - AllinOne
+    faltten: true
+    hidden: false
 
+rules:
