@@ -29,16 +29,15 @@ policy_groups:
     - Hong Kong
     - Singapore
     flatten: True
+    filter: PROXY|DIRECT|Hong Kong|Singapore|埃及|土耳其|尼日利亚
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
 - select:
     name: Hong Kong
     policies:
-    - PROXY
     - DIRECT
-    - Hong Kong
-    - Singapore
     flatten: True
+    filter: DIRECT|香港
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
 
