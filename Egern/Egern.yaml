@@ -3,12 +3,12 @@ auto_update:
   interval: 86400
 
 policy_groups:
-- select:
+- external:
     name: PROXY
-    policies:
-    - DIRECT
-    - AllinOne
-    flatten: true
+    type: select
+    urls:
+    - http://xsj.wybm.cyou:30010/T3B9dgzBzdRbBF8Aqx7P/download/collection/James?target=Egern
+    update_interval: 86400
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 - select:
@@ -20,7 +20,7 @@ policy_groups:
     - United States
     flatten: false
     hidden: false
-    icon: icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
 - select:
     name: Netflix
     policies:
@@ -30,7 +30,7 @@ policy_groups:
     - Singapore
     flatten: True
     hidden: false
-    icon: icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
 - select:
     name: Hong Kong
     policies:
@@ -40,14 +40,7 @@ policy_groups:
     - Singapore
     flatten: True
     hidden: false
-    icon: icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
-- external:
-    name: AllinOne
-    type: select
-    urls:
-    - http://xsj.wybm.cyou:30010/T3B9dgzBzdRbBF8Aqx7P/download/collection/James?target=Egern
-    update_interval: 86400
-    hidden: true
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
 
 rules:
 - rule_set:
