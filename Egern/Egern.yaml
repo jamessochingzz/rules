@@ -11,6 +11,36 @@ policy_groups:
     flatten: true
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+- select:
+    name: Apple
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    - United States
+    flatten: false
+    hidden: false
+    icon: icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
+- select:
+    name: Netflix
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    - Singapore
+    flatten: True
+    hidden: false
+    icon: icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
+- select:
+    name: Hong Kong
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    - Singapore
+    flatten: True
+    hidden: false
+    icon: icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
 - external:
     name: AllinOne
     type: select
@@ -81,7 +111,7 @@ rules:
     policy: Emby_Makima
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.list,Emby_HK-BEUP.list
     policy: Emby_HK-BEUP
     update_interval: 86400
 - rule_set:
@@ -161,4 +191,3 @@ rules:
     policy: DIRECT
 - default:
     policy: PROXY
-
