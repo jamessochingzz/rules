@@ -4,7 +4,7 @@ policy_groups:
     policies:
     - DIRECT
     - AllinOne
-    faltten: true
+    flatten: true
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 - external:
