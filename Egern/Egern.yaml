@@ -5,5 +5,5 @@ policy_groups:
     - AllinOne
     faltten: true
     hidden: false
-
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 rules:
