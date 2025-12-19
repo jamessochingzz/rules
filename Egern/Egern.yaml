@@ -29,7 +29,7 @@ policy_groups:
     - Hong Kong
     - Singapore
     flatten: True
-    filter: DIRECT|PROXY|埃及|土耳其|尼日利亚
+    filter: ^(?=.*圣何塞)|^(?!.*(HK|SG|US|JP|TW|香港|新加坡|美国|日本|台湾|Emby)).*$
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
 - select:
