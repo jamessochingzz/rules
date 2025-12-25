@@ -31,18 +31,58 @@ policy_groups:
     - Hong Kong
     - Singapore
     flatten: True
-    filter: ^(?=.*圣何塞)|^(?!.*(HK|SG|US|JP|TW|香港|新加坡|美国|日本|台湾|Emby)).*$
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
+- select:
+    name: Netflix
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    - Singapore
+    flatten: True
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
 - select:
     name: Hong Kong
     policies:
     - DIRECT
-    - PROXY
     flatten: True
-    filter: DIRECT|香港
+    filter: DIRECT|香港|HK
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+- select:
+    name: Singapore
+    policies:
+    - DIRECT
+    flatten: True
+    filter: DIRECT|新加坡|SG
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+- select:
+    name: United States
+    policies:
+    - DIRECT
+    flatten: True
+    filter: DIRECT|美国|US
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+- select:
+    name: Japan
+    policies:
+    - DIRECT
+    flatten: True
+    filter: DIRECT|日本|JP
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+- select:
+    name: Taiwan
+    policies:
+    - DIRECT
+    flatten: True
+    filter: DIRECT|台湾|TW
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Taiwan.png
 
 rules:
 - rule_set:
