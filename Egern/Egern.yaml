@@ -9,7 +9,18 @@ asn_db_url: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest
 proxy_latency_test_url: http://cp.cloudflare.com/generate_204
 direct_latency_test_url: http://cp.cloudflare.com/generate_204
 
-dns: {}
+dns:
+  bootstrap:
+  - 223.5.5.5
+  - 119.29.29.29
+  - 1.0.0.1
+  upstreams:
+    阿里 DNS:
+    - 223.5.5.5
+    腾讯 DNS:
+    - 119.29.29.29
+    Cloudflare DNS:
+    - 1.1.1.1
 
 policy_groups:
 - external:
