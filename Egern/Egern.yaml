@@ -260,6 +260,8 @@ policy_groups:
 - select:
     name: Hong Kong
     policies:
+    - PROXY
+    - DIRECT
     flatten: true
     filter: DIRECT|香港|HK
     hidden: false
@@ -267,6 +269,8 @@ policy_groups:
 - select:
     name: Singapore
     policies:
+    - PROXY
+    - DIRECT
     flatten: true
     filter: DIRECT|新加坡|SG
     hidden: false
@@ -274,6 +278,8 @@ policy_groups:
 - select:
     name: United States
     policies:
+    - PROXY
+    - DIRECT
     flatten: true
     filter: DIRECT|美国|US
     hidden: false
@@ -281,6 +287,8 @@ policy_groups:
 - select:
     name: Japan
     policies:
+    - PROXY
+    - DIRECT
     flatten: true
     filter: DIRECT|日本|JP
     hidden: false
@@ -288,6 +296,8 @@ policy_groups:
 - select:
     name: Taiwan
     policies:
+    - PROXY
+    - DIRECT
     flatten: true
     filter: DIRECT|台湾|TW
     hidden: false
