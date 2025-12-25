@@ -166,7 +166,7 @@ policy_groups:
     - DIRECT
     - United States
     - Japan
-    flatten: true
+    flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Bot.png
 - select:
