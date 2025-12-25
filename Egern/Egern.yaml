@@ -2,6 +2,11 @@ auto_update:
   url: 
   interval: 86400
 
+allow_external_connections: false
+vif_only: false
+proxy_latency_test_url: http://captive.apple.com/generate_204
+direct_latency_test_url: http://captive.apple.com/generate_204
+
 dns: {}
 
 policy_groups:
