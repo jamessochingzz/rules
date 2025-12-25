@@ -4,8 +4,8 @@ auto_update:
 
 allow_external_connections: false
 vif_only: false
-proxy_latency_test_url: http://captive.apple.com/generate_204
-direct_latency_test_url: http://captive.apple.com/generate_204
+proxy_latency_test_url: http://cp.cloudflare.com/generate_204
+direct_latency_test_url: http://cp.cloudflare.com/generate_204
 
 dns: {}
 
