@@ -30,24 +30,24 @@ policy_groups:
     - DIRECT
     - Hong Kong
     - Singapore
-    flatten: True
+    flatten: true
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
 - select:
-    name: Netflix
+    name: Disney
     policies:
     - PROXY
     - DIRECT
     - Hong Kong
     - Singapore
-    flatten: True
+    flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
 - select:
     name: Hong Kong
     policies:
     - DIRECT
-    flatten: True
+    flatten: true
     filter: DIRECT|香港|HK
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
@@ -55,7 +55,7 @@ policy_groups:
     name: Singapore
     policies:
     - DIRECT
-    flatten: True
+    flatten: true
     filter: DIRECT|新加坡|SG
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
@@ -63,7 +63,7 @@ policy_groups:
     name: United States
     policies:
     - DIRECT
-    flatten: True
+    flatten: true
     filter: DIRECT|美国|US
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
@@ -71,7 +71,7 @@ policy_groups:
     name: Japan
     policies:
     - DIRECT
-    flatten: True
+    flatten: true
     filter: DIRECT|日本|JP
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
@@ -79,7 +79,7 @@ policy_groups:
     name: Taiwan
     policies:
     - DIRECT
-    flatten: True
+    flatten: true
     filter: DIRECT|台湾|TW
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Taiwan.png
