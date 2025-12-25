@@ -31,6 +31,7 @@ policy_groups:
     - Hong Kong
     - Singapore
     flatten: true
+    filter: DIRECT|新加坡|尼日利亚|SG|NG
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
 - select:
@@ -51,7 +52,7 @@ policy_groups:
     - Hong Kong
     - United States
     - Japan
-    flatten: true
+    flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Prime_Video.png
 - select:
@@ -63,7 +64,7 @@ policy_groups:
     - Singapore
     - United States
     - Taiwan
-    flatten: true
+    flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HBO_Max.png
 - select:
@@ -76,7 +77,7 @@ policy_groups:
     - Singapore
     - Japan
     - Taiwan
-    flatten: true
+    flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
 - select:
@@ -85,7 +86,7 @@ policy_groups:
     - PROXY
     - DIRECT
     - Hong Kong
-    flatten: true
+    flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Spotify.png
 - select:
@@ -116,6 +117,7 @@ policy_groups:
     - Hong Kong
     - United_States
     flatten: true
+    filter: DIRECT|香港|美国|圣何塞|HK|US
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Emby.png
 - select:
@@ -125,6 +127,7 @@ policy_groups:
     - DIRECT
     - Hong Kong
     flatten: true
+    filter: 香港|HK|Emby
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Emby.png
 - select:
@@ -176,7 +179,7 @@ policy_groups:
     - Singapore
     - Japan
     - Taiwan
-    flatten: true
+    flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Google.png
 - select:
@@ -189,7 +192,7 @@ policy_groups:
     - Singapore
     - Japan
     - Taiwan
-    flatten: true
+    flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Facebook.png
 - select:
@@ -202,7 +205,7 @@ policy_groups:
     - Singapore
     - Japan
     - Taiwan
-    flatten: true
+    flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
 - select:
@@ -215,7 +218,7 @@ policy_groups:
     - Singapore
     - Japan
     - Taiwan
-    flatten: true
+    flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Lab.png
 - select:
@@ -225,7 +228,7 @@ policy_groups:
     - DIRECT
     - Hong Kong
     - United States
-    flatten: true
+    flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/PayPal.png
 - select:
@@ -238,7 +241,7 @@ policy_groups:
     - Singapore
     - Japan
     - Taiwan
-    flatten: true
+    flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
 - select:
@@ -255,6 +258,7 @@ policy_groups:
     - DIRECT
     - PROXY
     flatten: true
+    filter: DIRECT|圣何塞
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Domestic.png
 - select:
