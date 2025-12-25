@@ -260,7 +260,6 @@ policy_groups:
 - select:
     name: Hong Kong
     policies:
-    - DIRECT
     flatten: true
     filter: DIRECT|香港|HK
     hidden: false
@@ -268,7 +267,6 @@ policy_groups:
 - select:
     name: Singapore
     policies:
-    - DIRECT
     flatten: true
     filter: DIRECT|新加坡|SG
     hidden: false
@@ -276,7 +274,6 @@ policy_groups:
 - select:
     name: United States
     policies:
-    - DIRECT
     flatten: true
     filter: DIRECT|美国|US
     hidden: false
@@ -284,7 +281,6 @@ policy_groups:
 - select:
     name: Japan
     policies:
-    - DIRECT
     flatten: true
     filter: DIRECT|日本|JP
     hidden: false
@@ -292,7 +288,6 @@ policy_groups:
 - select:
     name: Taiwan
     policies:
-    - DIRECT
     flatten: true
     filter: DIRECT|台湾|TW
     hidden: false
