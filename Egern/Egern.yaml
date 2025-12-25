@@ -1,5 +1,5 @@
 auto_update:
-  url: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Egern/Egern.yaml
+  url: 
   interval: 86400
 
 dns: {}
@@ -9,7 +9,7 @@ policy_groups:
     name: PROXY
     type: select
     urls:
-    - https://sub.store/download/collection/AllinOne?target=Egern
+    - 
     update_interval: 86400
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
