@@ -44,6 +44,220 @@ policy_groups:
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Disney%2B.png
 - select:
+    name: PrimeVideo
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    - United States
+    - Japan
+    flatten: true
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Prime_Video.png
+- select:
+    name: HBO
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    - Singapore
+    - United States
+    - Taiwan
+    flatten: true
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HBO_Max.png
+- select:
+    name: YouTube
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    - United States
+    - Singapore
+    - Japan
+    - Taiwan
+    flatten: true
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
+- select:
+    name: Spotify
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    flatten: true
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Spotify.png
+- select:
+    name: TikTok
+    policies:
+    - PROXY
+    - DIRECT
+    - United States
+    - Japan
+    - Taiwan
+    flatten: false
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TikTok.png
+- select:
+    name: F1
+    policies:
+    - PROXY
+    - DIRECT
+    - United States
+    flatten: false
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Rocket.png
+- select:
+    name: Emby_Makima
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    - United_States
+    flatten: true
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Emby.png
+- select:
+    name: Emby_HK-BEUP
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    flatten: true
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Emby.png
+- select:
+    name: HKMedia
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    flatten: false
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TVB.png
+- select:
+    name: DomesticMedia
+    policies:
+    - DIRECT
+    - PROXY
+    - Hong Kong
+    - Taiwan
+    flatten: false
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/bilibili.png
+- select:
+    name: Porn
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    - Japan
+    flatten: false
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Pornhub.png
+- select:
+    name: AI
+    policies:
+    - PROXY
+    - DIRECT
+    - United States
+    - Japan
+    flatten: true
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Bot.png
+- select:
+    name: Google
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    - United States
+    - Singapore
+    - Japan
+    - Taiwan
+    flatten: true
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Google.png
+- select:
+    name: Facebook
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    - United States
+    - Singapore
+    - Japan
+    - Taiwan
+    flatten: true
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Facebook.png
+- select:
+    name: Microsoft
+    policies:
+    - DIRECT
+    - PROXY
+    - Hong Kong
+    - United States
+    - Singapore
+    - Japan
+    - Taiwan
+    flatten: true
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
+- select:
+    name: LinkedIn
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    - United States
+    - Singapore
+    - Japan
+    - Taiwan
+    flatten: true
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Lab.png
+- select:
+    name: PayPal
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    - United States
+    flatten: true
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/PayPal.png
+- select:
+    name: Steam
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    - United States
+    - Singapore
+    - Japan
+    - Taiwan
+    flatten: true
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Steam.png
+- select:
+    name: Speedtest
+    policies:
+    - PROXY
+    - DIRECT
+    flatten: true
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Speedtest.png
+- select:
+    name: WYBM
+    policies:
+    - DIRECT
+    - PROXY
+    flatten: true
+    hidden: false
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Domestic.png
+- select:
     name: Hong Kong
     policies:
     - DIRECT
