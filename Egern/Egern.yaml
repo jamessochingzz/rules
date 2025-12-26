@@ -15,11 +15,11 @@ dns:
   - 119.29.29.29
   - 1.0.0.1
   upstreams:
-    阿里 DNS:
+    Ali:
     - 223.5.5.5
-    腾讯 DNS:
+    Tencent:
     - 119.29.29.29
-    Cloudflare DNS:
+    Cloudflare:
     - 1.1.1.1
 
 policy_groups:
