@@ -3,7 +3,7 @@ auto_update:
   interval: 86400
 
 allow_external_connections: false
-vif_only: true
+vif_only: false
 geoip_db_url: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb
 asn_db_url: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb
 proxy_latency_test_url: http://cp.cloudflare.com/generate_204
