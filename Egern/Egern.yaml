@@ -48,8 +48,8 @@ policy_groups:
     - DIRECT
     - Hong Kong
     - Singapore
-    flatten: true
-    filter: DIRECT|新加坡|尼日利亚|SG|NG
+    - Nigeria
+    flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
 - select:
@@ -324,6 +324,15 @@ policy_groups:
     filter: DIRECT|台湾|TW
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Taiwan.png
+- fallback:
+    name: Nigeria
+    policies:
+    - PROXY
+    flatten: true
+    filter: 尼日利亚|NG
+    interval: 86400
+    timeout: 5
+    hidden: true
 
 rules:
 - ssid:
