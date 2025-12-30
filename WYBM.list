@@ -1,3 +1,7 @@
 # > WYBM
 DOMAIN-SUFFIX,wybm.cyou
+
+# > Mail
 DOMAIN,imap.gmail.com
+DOMAIN-SUFFIX,mail.icloud.com.cn
+DOMAIN-SUFFIX,mail.me.com
