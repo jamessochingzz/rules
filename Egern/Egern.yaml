@@ -3,11 +3,13 @@ auto_update:
   interval: 86400
 
 allow_external_connections: false
-vif_only: true
+vif_only: false
 geoip_db_url: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb
 asn_db_url: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb
 proxy_latency_test_url: http://cp.cloudflare.com/generate_204
 direct_latency_test_url: http://cp.cloudflare.com/generate_204
+bypass_tunnel_proxy:
+- 192.168.0.0/16
 
 dns:
   bootstrap:
@@ -34,8 +36,8 @@ policy_groups:
 - select:
     name: Apple
     policies:
-    - PROXY
     - DIRECT
+    - PROXY
     - Hong Kong
     - United States
     flatten: false
@@ -283,45 +285,40 @@ policy_groups:
     name: Hong Kong
     policies:
     - PROXY
-    - DIRECT
     flatten: true
-    filter: DIRECT|香港|HK
+    filter: 香港|HK
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
 - select:
     name: Singapore
     policies:
     - PROXY
-    - DIRECT
     flatten: true
-    filter: DIRECT|新加坡|SG
+    filter: 新加坡|SG
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
 - select:
     name: United States
     policies:
     - PROXY
-    - DIRECT
     flatten: true
-    filter: DIRECT|美国|US
+    filter: 美国|US
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
 - select:
     name: Japan
     policies:
     - PROXY
-    - DIRECT
     flatten: true
-    filter: DIRECT|日本|JP
+    filter: 日本|JP
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
 - select:
     name: Taiwan
     policies:
     - PROXY
-    - DIRECT
     flatten: true
-    filter: DIRECT|台湾|TW
+    filter: 台湾|TW
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Taiwan.png
 - fallback:
