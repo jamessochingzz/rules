@@ -9,8 +9,8 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
     type: select
     proxies:
-      - Proxies
       - DIRECT
+      - Proxies
       - Hong Kong
       - United States
   - name: Netflix
@@ -246,35 +246,30 @@ proxy-groups:
     include-all: true
     filter: HK|香港
     proxies:
-      - DIRECT
   - name: Singapore
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
     type: select
     include-all: true
     filter: SG|新加坡
     proxies:
-      - DIRECT
   - name: United States
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
     type: select
     include-all: true
     filter: US|美国
     proxies:
-      - DIRECT
   - name: Japan
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
     type: select
     include-all: true
     filter: JP|日本
     proxies:
-      - DIRECT
   - name: Taiwan
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Taiwan.png
     type: select
     include-all: true
     filter: TW|台湾
     proxies:
-      - DIRECT
 
 rule-providers:
   LocalAreaNetwork:
