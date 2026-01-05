@@ -280,7 +280,7 @@ policy_groups:
     policies:
     - PROXY
     flatten: true
-    filter: 美国|US
+    filter: 美国|US|圣何塞
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
 - select:
