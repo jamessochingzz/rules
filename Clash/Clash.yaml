@@ -228,7 +228,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
     type: select
     include-all: true
-    filter: US|美国
+    filter: US|美国|圣何塞
     proxies:
   - name: Japan
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
