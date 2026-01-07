@@ -496,3 +496,7 @@ rules:
   - "RULE-SET,Direct,DIRECT"
   - "GEOIP,CN,DIRECT"
   - "MATCH,Proxies"
+
+geox-url:
+  mmdb: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb
+  asn: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-asn.mmdb
