@@ -430,7 +430,7 @@ rules:
     policy: DIRECT
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CN/CN_ASN.list
     policy: DIRECT
     update_interval: 86400
 - default:
