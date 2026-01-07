@@ -461,13 +461,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  ASNChina:
-    url: https://github.dytst.cn/https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CN/CN_ASN.list
-    path: ./ruleset/ASNChina.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
 
 rules:
   - "RULE-SET,LocalAreaNetwork,DIRECT"
@@ -501,7 +494,6 @@ rules:
   - "RULE-SET,Steam,Steam"
   - "RULE-SET,Speedtest,Speedtest"
   - "RULE-SET,Direct,DIRECT"
-  - "RULE-SET,ASNChina,DIRECT"
   - "GEOIP,CN,DIRECT"
   - "MATCH,Proxies"
 
