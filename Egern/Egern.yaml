@@ -433,6 +433,9 @@ rules:
     match: https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CN/CN_ASN.list
     policy: DIRECT
     update_interval: 86400
+- geoip:
+    match: CN
+    policy: DIRECT
 - default:
     policy: PROXY
 
