@@ -4,6 +4,7 @@ auto_update:
 
 allow_external_connections: false
 vif_only: false
+block_quic: true
 geoip_db_url: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb
 asn_db_url: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-asn.mmdb
 proxy_latency_test_url: http://cp.cloudflare.com/generate_204
