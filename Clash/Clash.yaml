@@ -463,6 +463,9 @@ rule-providers:
     type: http
 
 rules:
+rules:
+  - "AND,((NETWORK,UDP),(DST-PORT,443)),REJECT"
+  - "AND,((NETWORK,UDP),(DST-PORT,80)),REJECT"
   - "RULE-SET,LocalAreaNetwork,DIRECT"
   - "RULE-SET,Manual_Direct,DIRECT"
   - "RULE-SET,Manual_Proxies,Proxies"
