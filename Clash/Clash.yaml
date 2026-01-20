@@ -76,7 +76,7 @@ proxy-groups:
       - Proxies
       - DIRECT
       - United States
-  - name: Emby_Makima
+  - name: Emby
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Emby.png
     type: select
     include-all: true
@@ -329,8 +329,8 @@ rule-providers:
     format: text
     type: http
   Emby_Makima:
-    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_Makima.list
-    path: ./ruleset/Emby_Makima.list
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.list
+    path: ./ruleset/Emby.list
     behavior: classical
     interval: 86400
     format: text
@@ -478,7 +478,7 @@ rules:
   - "RULE-SET,Spotify,Spotify"
   - "RULE-SET,TikTok,TikTok"
   - "RULE-SET,F1,F1"
-  - "RULE-SET,Emby_Makima,Emby_Makima"
+  - "RULE-SET,Emby,Emby"
   - "RULE-SET,Emby_HK-BEUP,Emby_HK-BEUP"
   - "RULE-SET,myTVSUPER,HKMedia"
   - "RULE-SET,ViuTV,HKMedia"
