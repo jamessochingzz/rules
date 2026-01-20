@@ -328,7 +328,7 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  Emby_Makima:
+  Emby:
     url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.list
     path: ./ruleset/Emby.list
     behavior: classical
