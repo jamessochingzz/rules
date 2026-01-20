@@ -109,7 +109,7 @@ policy_groups:
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Rocket.png
 - select:
-    name: Emby_Makima
+    name: Emby
     policies:
     - PROXY
     - DIRECT
@@ -355,8 +355,8 @@ rules:
     policy: F1
     update_interval: 86400
 - rule_set:
-    match: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_Makima.list
-    policy: Emby_Makima
+    match: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.list
+    policy: Emby
     update_interval: 86400
 - rule_set:
     match: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.list
