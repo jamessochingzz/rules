@@ -182,7 +182,7 @@ proxy-groups:
       - Japan
       - Taiwan
   - name: Crypto
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Lab.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Cydia.png
     type: select
     include-all: true
     filter: ^(?=.*圣何塞)|^(?!.*(HK|SG|US|JP|TW|香港|新加坡|美国|日本|台湾|Emby)).*$
