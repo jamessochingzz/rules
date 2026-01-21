@@ -211,6 +211,19 @@ policy_groups:
     hidden: false
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Lab.png
 - select:
+    name: Crypto
+    policies:
+    - PROXY
+    - DIRECT
+    - Hong Kong
+    - United States
+    - Singapore
+    - Japan
+    - Taiwan
+    flatten: false
+    hidden: false
+    icon: 
+- select:
     name: PayPal
     policies:
     - PROXY
@@ -413,6 +426,10 @@ rules:
 - rule_set:
     match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/LinkedIn/LinkedIn.list
     policy: LinkedIn
+    update_interval: 86400
+- rule_set:
+    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Crypto/Crypto.list
+    policy: Crypto
     update_interval: 86400
 - rule_set:
     match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/PayPal/PayPal.list
