@@ -209,7 +209,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Cydia.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Lab.png
 - select:
     name: Crypto
     policies:
@@ -222,7 +222,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Lab.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Cydia.png
 - select:
     name: PayPal
     policies:
