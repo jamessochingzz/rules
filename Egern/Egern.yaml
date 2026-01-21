@@ -222,7 +222,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: 
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Lab.png
 - select:
     name: PayPal
     policies:
