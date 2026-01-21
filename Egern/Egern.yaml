@@ -1,3 +1,7 @@
+auto_update:
+  url: 
+  interval: 0
+
 allow_external_connections: false
 vif_only: false
 block_quic: true
