@@ -464,6 +464,12 @@ modules:
   compat_arguments:
     Proxy: PROXY
   update_interval: 86400
+  enabled: false
+- name: IPTest
+  url: https://raw.githubusercontent.com/Roddy-D/modules/refs/heads/main/iptest.yaml
+  compat_arguments:
+    Proxy: PROXY
+  update_interval: 86400
   enabled: true
 - name: iRingo WeatherKit
   url: https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.sgmodule
