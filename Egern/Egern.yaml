@@ -100,15 +100,6 @@ policy_groups:
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/TikTok.png
 - select:
-    name: F1
-    policies:
-    - PROXY
-    - DIRECT
-    - United States
-    flatten: false
-    hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Rocket.png
-- select:
     name: Emby
     policies:
     - PROXY
@@ -255,15 +246,6 @@ policy_groups:
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Speedtest.png
 - select:
-    name: WYBM
-    policies:
-    - DIRECT
-    - PROXY
-    flatten: true
-    filter: DIRECT|圣何塞
-    hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Domestic.png
-- select:
     name: Hong Kong
     policies:
     - PROXY
@@ -320,20 +302,12 @@ rules:
     policy: DIRECT
     disabled: false
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/LocalAreaNetwork.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Direct.list
     policy: DIRECT
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Manual_Direct.list
-    policy: DIRECT
-    update_interval: 86400
-- rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Manual_Proxies.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Proxy.list
     policy: PROXY
-    update_interval: 86400
-- rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/WYBM.list
-    policy: WYBM
     update_interval: 86400
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AppleProxy/AppleProxy.list
@@ -362,10 +336,6 @@ rules:
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/TikTok/TikTok.list
     policy: TikTok
-    update_interval: 86400
-- rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/F1.list
-    policy: F1
     update_interval: 86400
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.list
@@ -442,10 +412,6 @@ rules:
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Speedtest/Speedtest.list
     policy: Speedtest
-    update_interval: 86400
-- rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Direct/Direct.list
-    policy: DIRECT
     update_interval: 86400
 - geoip:
     match: CN
