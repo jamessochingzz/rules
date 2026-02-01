@@ -224,14 +224,6 @@ proxy-groups:
     proxies:
       - Proxies
       - DIRECT
-  - name: WYBM
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Domestic.png
-    type: select
-    include-all: true
-    filter: 圣何塞
-    proxies:
-      - DIRECT
-      - Proxies
   - name: Hong Kong
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Hong_Kong.png
     type: select
@@ -264,30 +256,16 @@ proxy-groups:
     proxies:
 
 rule-providers:
-  LocalAreaNetwork:
-    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/LocalAreaNetwork.list
-    path: ./ruleset/LocalAreaNetwork.list
+  Direct:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Direct.list
+    path: ./ruleset/Direct.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Manual_Direct:
-    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Manual_Direct.list
-    path: ./ruleset/Manual_Direct.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Manual_Proxies:
-    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Manual_Proxies.list
-    path: ./ruleset/Manual_Proxies.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  WYBM:
-    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/WYBM.list
-    path: ./ruleset/WYBM.list
+  Proxy:
+    url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Proxy.list
+    path: ./ruleset/Proxy.list
     behavior: classical
     interval: 86400
     format: text
@@ -481,21 +459,12 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  Direct:
-    url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Direct/Direct.list
-    path: ./ruleset/Direct.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
 
 rules:
   - "AND,((NETWORK,UDP),(DST-PORT,443)),REJECT"
   - "AND,((NETWORK,UDP),(DST-PORT,80)),REJECT"
-  - "RULE-SET,LocalAreaNetwork,DIRECT"
-  - "RULE-SET,Manual_Direct,DIRECT"
-  - "RULE-SET,Manual_Proxies,Proxies"
-  - "RULE-SET,WYBM,WYBM"
+  - "RULE-SET,Direct,DIRECT"
+  - "RULE-SET,Proxy,Proxies"
   - "RULE-SET,Apple_Proxy,United States"  
   - "RULE-SET,Apple,Apple"
   - "RULE-SET,Netflix,Netflix"
@@ -523,6 +492,5 @@ rules:
   - "RULE-SET,PayPal,PayPal"
   - "RULE-SET,Steam,Steam"
   - "RULE-SET,Speedtest,Speedtest"
-  - "RULE-SET,Direct,DIRECT"
   - "GEOIP,CN,DIRECT"
   - "MATCH,Proxies"
