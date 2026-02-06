@@ -100,6 +100,15 @@ policy_groups:
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/TikTok.png
 - select:
+    name: F1
+    policies:
+    - PROXY
+    - DIRECT
+    - United States
+    flatten: false
+    hidden: false
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Rocket.png
+- select:
     name: Emby
     policies:
     - PROXY
@@ -336,6 +345,10 @@ rules:
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/TikTok/TikTok.list
     policy: TikTok
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/F1.list
+    policy: F1
     update_interval: 86400
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.list
