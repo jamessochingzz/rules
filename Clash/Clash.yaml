@@ -58,7 +58,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Spotify.png
     type: select
     include-all: true
-    filter: TR|土耳其|圣何塞
+    filter: TR|NG|土耳其|尼日利亚|圣何塞
     proxies:
       - Proxies
       - DIRECT
