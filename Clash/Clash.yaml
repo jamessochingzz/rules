@@ -129,6 +129,7 @@ proxy-groups:
       - DIRECT
       - United States
       - Japan
+      - Singapore
   - name: Google
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Google.png
     type: select
