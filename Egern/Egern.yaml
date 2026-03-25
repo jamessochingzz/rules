@@ -155,6 +155,7 @@ policy_groups:
     - DIRECT
     - United States
     - Japan
+    - Singapore
     flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Bot.png
