@@ -87,7 +87,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Emby.png
     type: select
     include-all: true
-    filter: 圣何塞
+    filter: Yige|圣何塞
     proxies:
       - DIRECT
       - Proxies
