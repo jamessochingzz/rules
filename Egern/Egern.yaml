@@ -116,7 +116,7 @@ policy_groups:
     - Hong Kong
     - United_States
     flatten: true
-    filter: DIRECT|香港|美国|圣何塞|HK|US
+    filter: DIRECT|Yige|圣何塞
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Emby.png
 - select:
@@ -126,7 +126,7 @@ policy_groups:
     - DIRECT
     - Hong Kong
     flatten: true
-    filter: 香港|HK|Emby
+    filter: Emby
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Emby.png
 - select:
