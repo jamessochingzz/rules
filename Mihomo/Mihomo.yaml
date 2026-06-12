@@ -27,7 +27,7 @@ dns:
   fake-ip-range: 198.18.0.1/16
   default-nameserver: [223.5.5.5, 119.29.29.29, 1.1.1.1]
   nameserver: [https://dns.alidns.com/dns-query, https://doh.pub/dns-query]
-  fake-ip-filter: [*.lan, *.local, +.miwifi.com, +.docker.io, +.push.apple.com]
+  fake-ip-filter: [+.miwifi.com, +.docker.io, +.push.apple.com]
 
 
 
