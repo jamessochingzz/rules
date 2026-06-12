@@ -84,14 +84,14 @@ rules:
   - RULE-SET,F1,F1
   - RULE-SET,Emby,Emby
   - RULE-SET,Emby_HK-BEUP,Emby_HK-BEUP
-  - "RULE-SET,myTVSUPER,HKMedia"
-  - "RULE-SET,ViuTV,HKMedia"
-  - "RULE-SET,JOOX,HKMedia"
-  - "RULE-SET,KKBOX,HKMedia"
-  - "RULE-SET,BiliBili,DomesticMedia"
-  - "RULE-SET,iQIYI,DomesticMedia"
-  - "RULE-SET,TencentVideo,DomesticMedia"
-  - "RULE-SET,Youku,DomesticMedia"
+  - RULE-SET,myTVSUPER,HKMedia
+  - RULE-SET,ViuTV,HKMedia
+  - RULE-SET,JOOX,HKMedia
+  - RULE-SET,KKBOX,HKMedia
+  - RULE-SET,BiliBili,DomesticMedia
+  - RULE-SET,iQIYI,DomesticMedia
+  - RULE-SET,TencentVideo,DomesticMedia
+  - RULE-SET,Youku,DomesticMedia
   - RULE-SET,AI,AI
   - RULE-SET,AIIP,AI,no-resolve
   - RULE-SET,Google,Google
