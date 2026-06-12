@@ -5,3 +5,5 @@ DOMAIN-SUFFIX,bluefocusgroup.com
 # > WYBM
 DOMAIN,ts.wybm.cyou
 DOMAIN,xsj.wybm.cyou
+
+DOMAIN,cable.auth.com
