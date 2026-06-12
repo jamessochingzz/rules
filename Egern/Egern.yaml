@@ -19,11 +19,9 @@ dns:
   - 1.1.1.1
   upstreams:
     Ali:
-    - 223.5.5.5
+    - https://dns.alidns.com/dns-query
     Tencent:
-    - 119.29.29.29
-    Cloudflare:
-    - 1.1.1.1
+    - https://doh.pub/dns-query
 
 policy_groups:
 - external:
@@ -39,8 +37,11 @@ policy_groups:
     policies:
     - DIRECT
     - PROXY
-    - Hong Kong
-    - United States
+    - HongKong
+    - UnitedStates
+    - Japan
+    - Singapore
+    - Taiwan
     flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Apple.png
@@ -49,8 +50,11 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
-    - Hong Kong
+    - HongKong
+    - UnitedStates
+    - Japan
     - Singapore
+    - Taiwan
     - Nigeria
     flatten: false
     hidden: false
@@ -60,9 +64,11 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
-    - Hong Kong
-    - United States
+    - HongKong
+    - UnitedStates
     - Japan
+    - Singapore
+    - Taiwan
     flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Prime_Video.png
@@ -71,10 +77,10 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
-    - Hong Kong
-    - United States
-    - Singapore
+    - HongKong
+    - UnitedStates
     - Japan
+    - Singapore
     - Taiwan
     flatten: false
     hidden: false
@@ -84,7 +90,11 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
-    - Hong Kong
+    - HongKong
+    - UnitedStates
+    - Japan
+    - Singapore
+    - Taiwan
     flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Spotify.png
@@ -93,8 +103,10 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
-    - United States
+    - HongKong
+    - UnitedStates
     - Japan
+    - Singapore
     - Taiwan
     flatten: false
     hidden: false
@@ -104,7 +116,11 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
-    - United States
+    - HongKong
+    - UnitedStates
+    - Japan
+    - Singapore
+    - Taiwan
     flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Rocket.png
@@ -113,10 +129,13 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
-    - Hong Kong
-    - United_States
+    - HongKong
+    - UnitedStates
+    - Japan
+    - Singapore
+    - Taiwan
     flatten: true
-    filter: DIRECT|Yige|圣何塞
+    filter: DIRECT|圣何塞
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Emby.png
 - select:
@@ -124,7 +143,11 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
-    - Hong Kong
+    - HongKong
+    - UnitedStates
+    - Japan
+    - Singapore
+    - Taiwan
     flatten: true
     filter: Emby
     hidden: false
@@ -134,7 +157,11 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
-    - Hong Kong
+    - HongKong
+    - UnitedStates
+    - Japan
+    - Singapore
+    - Taiwan
     flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/TVB.png
@@ -143,7 +170,10 @@ policy_groups:
     policies:
     - DIRECT
     - PROXY
-    - Hong Kong
+    - HongKong
+    - UnitedStates
+    - Japan
+    - Singapore
     - Taiwan
     flatten: false
     hidden: false
@@ -153,9 +183,11 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
-    - United States
+    - HongKong
+    - UnitedStates
     - Japan
     - Singapore
+    - Taiwan
     flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Bot.png
@@ -164,10 +196,10 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
-    - Hong Kong
-    - United States
-    - Singapore
+    - HongKong
+    - UnitedStates
     - Japan
+    - Singapore
     - Taiwan
     flatten: false
     hidden: false
@@ -177,10 +209,10 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
-    - Hong Kong
-    - United States
-    - Singapore
+    - HongKong
+    - UnitedStates
     - Japan
+    - Singapore
     - Taiwan
     flatten: false
     hidden: false
@@ -190,10 +222,10 @@ policy_groups:
     policies:
     - DIRECT
     - PROXY
-    - Hong Kong
-    - United States
-    - Singapore
+    - HongKong
+    - UnitedStates
     - Japan
+    - Singapore
     - Taiwan
     flatten: false
     hidden: false
@@ -203,10 +235,10 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
-    - Hong Kong
-    - United States
-    - Singapore
+    - HongKong
+    - UnitedStates
     - Japan
+    - Singapore
     - Taiwan
     flatten: false
     hidden: false
@@ -216,10 +248,10 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
-    - Hong Kong
-    - United States
-    - Singapore
+    - HongKong
+    - UnitedStates
     - Japan
+    - Singapore
     - Taiwan
     flatten: false
     hidden: false
@@ -229,8 +261,11 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
-    - Hong Kong
-    - United States
+    - HongKong
+    - UnitedStates
+    - Japan
+    - Singapore
+    - Taiwan
     flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/PayPal.png
@@ -239,10 +274,10 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
-    - Hong Kong
-    - United States
-    - Singapore
+    - HongKong
+    - UnitedStates
     - Japan
+    - Singapore
     - Taiwan
     flatten: false
     hidden: false
@@ -252,11 +287,16 @@ policy_groups:
     policies:
     - PROXY
     - DIRECT
+    - HongKong
+    - UnitedStates
+    - Japan
+    - Singapore
+    - Taiwan
     flatten: true
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Speedtest.png
 - select:
-    name: Hong Kong
+    name: HongKong
     policies:
     - PROXY
     flatten: true
@@ -264,15 +304,7 @@ policy_groups:
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Hong_Kong.png
 - select:
-    name: Singapore
-    policies:
-    - PROXY
-    flatten: true
-    filter: 新加坡|SG
-    hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Singapore.png
-- select:
-    name: United States
+    name: UnitedStates
     policies:
     - PROXY
     flatten: true
@@ -287,6 +319,14 @@ policy_groups:
     filter: 日本|JP
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Japan.png
+- select:
+    name: Singapore
+    policies:
+    - PROXY
+    flatten: true
+    filter: 新加坡|SG
+    hidden: false
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Singapore.png
 - select:
     name: Taiwan
     policies:
@@ -312,23 +352,31 @@ rules:
     policy: DIRECT
     disabled: false
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Direct.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Direct.txt
     policy: DIRECT
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Proxy.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Private.txt
+    policy: DIRECT
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Proxy.txt
+    policy: PROXY
+    update_interval: 86400
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/GitHub.txt
     policy: PROXY
     update_interval: 86400
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AppleProxy/AppleProxy.list
-    policy: United States
+    policy: UnitedStates
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Apple/Apple_All.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Apple.txt
     policy: Apple
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Netflix/Netflix.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Netflix.txt
     policy: Netflix
     update_interval: 86400
 - rule_set:
@@ -336,27 +384,27 @@ rules:
     policy: PrimeVideo
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/YouTube/YouTube.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/YouTube.txt
     policy: YouTube
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Spotify/Spotify.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Spotify.txt
     policy: Spotify
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/TikTok/TikTok.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/TikTok.txt
     policy: TikTok
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/F1.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/F1.txt
     policy: F1
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.txt
     policy: Emby
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.txt
     policy: Emby_HK-BEUP
     update_interval: 86400
 - rule_set:
@@ -392,19 +440,19 @@ rules:
     policy: DomesticMedia
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/Repcz/Tool/refs/heads/X/Surge/Rules/AI.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/AI.txt
     policy: AI
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Google/Google.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Google.txt
     policy: Google
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Facebook/Facebook.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Facebook.txt
     policy: Facebook
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Microsoft/Microsoft.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Microsoft.txt
     policy: Microsoft
     update_interval: 86400
 - rule_set:
@@ -412,11 +460,11 @@ rules:
     policy: LinkedIn
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Crypto/Crypto.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Crypto.txt
     policy: Crypto
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/PayPal/PayPal.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/PayPal.txt
     policy: PayPal
     update_interval: 86400
 - rule_set:
@@ -424,12 +472,13 @@ rules:
     policy: Steam
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Speedtest/Speedtest.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Speedtest.txt
     policy: Speedtest
     update_interval: 86400
-- geoip:
-    match: CN
-    policy: DIRECT
+- rule_set:
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/China.txt
+    policy: Speedtest
+    update_interval: 86400
 - default:
     policy: PROXY
 
@@ -440,6 +489,6 @@ mitm:
 
 modules:
 - name: iRingo WeatherKit
-  url: https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.sgmodule
+  url: https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.yaml
   update_interval: 86400
-  enabled: true
+  enabled: false
