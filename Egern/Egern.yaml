@@ -480,7 +480,7 @@ rules:
     update_interval: 86400
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/China.txt
-    policy: Speedtest
+    policy: DIRECT
     update_interval: 86400
 - default:
     policy: PROXY
