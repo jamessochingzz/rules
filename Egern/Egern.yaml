@@ -22,6 +22,9 @@ dns:
     - https://dns.alidns.com/dns-query
     Tencent:
     - https://doh.pub/dns-query
+  proxy_nameservers:
+  - https://dns.alidns.com/dns-query
+  - https://doh.pub/dns-query
 
 policy_groups:
 - external:
