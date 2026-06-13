@@ -34,6 +34,8 @@ dns:
 proxy-providers:
   provider1: {type: http, interval: 86400, url: ''}
 
+
+
 proxy-groups:
   - {name: Proxies, type: select, include-all: true, proxies: [DIRECT], icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Final.png}
   - {name: Apple, type: select, proxies: *direct, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Apple.png}
