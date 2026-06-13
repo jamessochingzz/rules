@@ -45,7 +45,6 @@ proxy-groups:
   - {name: F1, type: select, include-all: true, filter: *filter-sj, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Rocket.png}
   - {name: Emby, type: select, include-all: true, filter: *filter-sj, proxies: *direct, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Emby.png}
   - {name: Emby_HK-BEUP, type: select, include-all: true, filter: *filter-em, proxies: [DIRECT], icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Emby.png}
-  - {name: HKMedia, type: select, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/TVB.png}
   - {name: DomesticMedia, type: select, include-all: true, filter: *filter-cn, proxies: *direct, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/bilibili.png}
   - {name: AI, type: select, include-all: true, filter: *filter-sj, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Bot.png}
   - {name: Google, type: select, include-all: true, filter: *filter-gg, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Google.png}
@@ -84,10 +83,6 @@ rules:
   - RULE-SET,F1,F1
   - RULE-SET,Emby,Emby
   - RULE-SET,Emby_HK-BEUP,Emby_HK-BEUP
-  - RULE-SET,myTVSUPER,HKMedia
-  - RULE-SET,ViuTV,HKMedia
-  - RULE-SET,JOOX,HKMedia
-  - RULE-SET,KKBOX,HKMedia
   - RULE-SET,BiliBili,DomesticMedia
   - RULE-SET,iQIYI,DomesticMedia
   - RULE-SET,TencentVideo,DomesticMedia
@@ -128,10 +123,6 @@ rule-providers:
   F1:             { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/F1.txt }
   Emby:           { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.txt }
   Emby_HK-BEUP:   { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.txt }
-  myTVSUPER:      { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/myTVSUPER/myTVSUPER.list }
-  ViuTV:          { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ViuTV/ViuTV.list }
-  JOOX:           { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/JOOX/JOOX.list }
-  KKBOX:          { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/KKBOX/KKBOX.list }
   BiliBili:       { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/BiliBili/BiliBili.list }
   iQIYI:          { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/iQIYI/iQIYI.list }
   TencentVideo:   { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/TencentVideo/TencentVideo.list }
