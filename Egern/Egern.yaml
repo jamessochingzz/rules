@@ -77,7 +77,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Prime_Video.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/PrimeVideo.png
 - select:
     name: YouTube
     policies:
@@ -295,7 +295,7 @@ policy_groups:
     flatten: true
     filter: 香港|HK
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Hong_Kong.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/HongKong.png
 - select:
     name: UnitedStates
     policies:
@@ -303,7 +303,7 @@ policy_groups:
     flatten: true
     filter: 美国|US|圣何塞
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/United_States.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/UnitedStates.png
 - select:
     name: Japan
     policies:
