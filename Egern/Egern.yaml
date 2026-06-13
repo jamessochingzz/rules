@@ -18,17 +18,16 @@ dns:
   - 119.29.29.29
   - 1.1.1.1
   upstreams:
-    Ali/Tencent:
+    Upstreams:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
+  forward:
+    - domain_wildcard:
+        match: "*"
+        value: Upstreams
   proxy_nameservers:
   - https://dns.alidns.com/dns-query
   - https://doh.pub/dns-query
-  forward:
-    - proxy_rule_set:
-        match: "https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/China.txt"
-        value: Ali/Tencent
-        update_interval: 86400
 
 policy_groups:
 - external:
