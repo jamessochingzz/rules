@@ -159,19 +159,6 @@ policy_groups:
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Emby.png
 - select:
-    name: HKMedia
-    policies:
-    - PROXY
-    - DIRECT
-    - HongKong
-    - UnitedStates
-    - Japan
-    - Singapore
-    - Taiwan
-    flatten: false
-    hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/TVB.png
-- select:
     name: DomesticMedia
     policies:
     - DIRECT
@@ -412,22 +399,6 @@ rules:
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.txt
     policy: Emby_HK-BEUP
-    update_interval: 86400
-- rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/myTVSUPER/myTVSUPER.list
-    policy: HKMedia
-    update_interval: 86400
-- rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ViuTV/ViuTV.list
-    policy: HKMedia
-    update_interval: 86400
-- rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/JOOX/JOOX.list
-    policy: HKMedia
-    update_interval: 86400
-- rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/KKBOX/KKBOX.list
-    policy: HKMedia
     update_interval: 86400
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/BiliBili/BiliBili.list
