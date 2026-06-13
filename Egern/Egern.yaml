@@ -37,7 +37,7 @@ policy_groups:
     - 
     update_interval: 86400
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Final.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Final.png
 - select:
     name: Apple
     policies:
@@ -50,7 +50,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Apple.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Apple.png
 - select:
     name: Netflix
     policies:
@@ -64,7 +64,7 @@ policy_groups:
     - Nigeria
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Netflix.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Netflix.png
 - select:
     name: PrimeVideo
     policies:
@@ -77,7 +77,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Prime_Video.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Prime_Video.png
 - select:
     name: YouTube
     policies:
@@ -90,7 +90,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/YouTube.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/YouTube.png
 - select:
     name: Spotify
     policies:
@@ -103,7 +103,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Spotify.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Spotify.png
 - select:
     name: TikTok
     policies:
@@ -116,7 +116,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/TikTok.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/TikTok.png
 - select:
     name: F1
     policies:
@@ -129,7 +129,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Rocket.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Rocket.png
 - select:
     name: Emby
     policies:
@@ -143,7 +143,7 @@ policy_groups:
     flatten: true
     filter: DIRECT|圣何塞
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Emby.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Emby.png
 - select:
     name: Emby_HK-BEUP
     policies:
@@ -157,9 +157,9 @@ policy_groups:
     flatten: true
     filter: Emby
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Emby.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Emby.png
 - select:
-    name: DomesticMedia
+    name: Bilibili
     policies:
     - DIRECT
     - PROXY
@@ -170,7 +170,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/bilibili.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/bilibili.png
 - select:
     name: AI
     policies:
@@ -183,7 +183,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Bot.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Bot.png
 - select:
     name: Google
     policies:
@@ -196,7 +196,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Google.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Google.png
 - select:
     name: Facebook
     policies:
@@ -209,7 +209,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Facebook.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Facebook.png
 - select:
     name: Microsoft
     policies:
@@ -222,7 +222,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Microsoft.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Microsoft.png
 - select:
     name: LinkedIn
     policies:
@@ -235,7 +235,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Lab.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Lab.png
 - select:
     name: Crypto
     policies:
@@ -248,7 +248,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Cydia.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Cydia.png
 - select:
     name: PayPal
     policies:
@@ -261,7 +261,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/PayPal.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/PayPal.png
 - select:
     name: Steam
     policies:
@@ -274,7 +274,7 @@ policy_groups:
     - Taiwan
     flatten: false
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Game.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Game.png
 - select:
     name: Speedtest
     policies:
@@ -287,7 +287,7 @@ policy_groups:
     - Taiwan
     flatten: true
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Speedtest.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Speedtest.png
 - select:
     name: HongKong
     policies:
@@ -295,7 +295,7 @@ policy_groups:
     flatten: true
     filter: 香港|HK
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Hong_Kong.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Hong_Kong.png
 - select:
     name: UnitedStates
     policies:
@@ -303,7 +303,7 @@ policy_groups:
     flatten: true
     filter: 美国|US|圣何塞
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/United_States.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/United_States.png
 - select:
     name: Japan
     policies:
@@ -311,7 +311,7 @@ policy_groups:
     flatten: true
     filter: 日本|JP
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Japan.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Japan.png
 - select:
     name: Singapore
     policies:
@@ -319,7 +319,7 @@ policy_groups:
     flatten: true
     filter: 新加坡|SG
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Singapore.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Singapore.png
 - select:
     name: Taiwan
     policies:
@@ -327,7 +327,7 @@ policy_groups:
     flatten: true
     filter: 台湾|TW
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/Taiwan.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Taiwan.png
 - fallback:
     name: Nigeria
     policies:
@@ -402,19 +402,7 @@ rules:
     update_interval: 86400
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/BiliBili/BiliBili.list
-    policy: DomesticMedia
-    update_interval: 86400
-- rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/iQIYI/iQIYI.list
-    policy: DomesticMedia
-    update_interval: 86400
-- rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/TencentVideo/TencentVideo.list
-    policy: DomesticMedia
-    update_interval: 86400
-- rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Youku/Youku.list
-    policy: DomesticMedia
+    policy: Bilibili
     update_interval: 86400
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/AI.txt
