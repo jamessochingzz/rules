@@ -86,6 +86,7 @@ rules:
   - RULE-SET,Emby,Emby
   - RULE-SET,Emby_HK-BEUP,Emby_HK-BEUP
   - RULE-SET,BiliBili,Bilibili
+  - RULE-SET,BiliBiliIP,Bilibili,no-resolve
   - RULE-SET,AI,AI
   - RULE-SET,AIIP,AI,no-resolve
   - RULE-SET,Google,Google
@@ -111,18 +112,19 @@ rule-providers:
   Proxy:          { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Proxy.txt }
   GitHub:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/GitHub.mrs }
   HongKong:       { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/HongKong.txt }
-  Apple_Proxy:    { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AppleProxy/AppleProxy.list }
+  Apple_Proxy:    { <<: *rule-set-domain, url: https://github.com/QuixoticHeart/rule-set/raw/ruleset/meta/domain/apple-proxy.mrs }
   Apple:          { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Apple.mrs }
   Netflix:        { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Netflix.mrs }
   NetflixIP:      { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Netflix.mrs }
-  PrimeVideo:     { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AmazonPrimeVideo/AmazonPrimeVideo.list }
+  PrimeVideo:     { <<: *rule-set-domain, url: https://github.com/QuixoticHeart/rule-set/raw/ruleset/meta/domain/primevideo.mrs }
   YouTube:        { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/YouTube.mrs }
   Spotify:        { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Spotify.mrs }
   TikTok:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/TikTok.mrs }
   F1:             { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/F1.txt }
   Emby:           { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.txt }
   Emby_HK-BEUP:   { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.txt }
-  BiliBili:       { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/BiliBili/BiliBili.list }
+  BiliBili:       { <<: *rule-set-domain, url: https://github.com/QuixoticHeart/rule-set/raw/ruleset/meta/domain/bilibili.mrs }
+  BiliBiliIP:     { <<: *rule-set-ipcidr, url: https://github.com/QuixoticHeart/rule-set/raw/ruleset/meta/ipcidr/bilibili.mrs }
   AI:             { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/AI.mrs }
   AIIP:           { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/AI.mrs }
   Google:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Google.mrs }
