@@ -224,19 +224,6 @@ policy_groups:
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Microsoft.png
 - select:
-    name: LinkedIn
-    policies:
-    - PROXY
-    - DIRECT
-    - HongKong
-    - UnitedStates
-    - Japan
-    - Singapore
-    - Taiwan
-    flatten: false
-    hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23FF9C4A/Lab.png
-- select:
     name: Crypto
     policies:
     - PROXY
@@ -361,7 +348,7 @@ rules:
     policy: PROXY
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AppleProxy/AppleProxy.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/surge/apple-proxy.list
     policy: UnitedStates
     update_interval: 86400
 - rule_set:
@@ -373,7 +360,7 @@ rules:
     policy: Netflix
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AmazonPrimeVideo/AmazonPrimeVideo.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/surge/primevideo.list
     policy: PrimeVideo
     update_interval: 86400
 - rule_set:
@@ -401,7 +388,7 @@ rules:
     policy: Emby_HK-BEUP
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/BiliBili/BiliBili.list
+    match: https://github.dytst.cn/https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/surge/bilibili.list
     policy: Bilibili
     update_interval: 86400
 - rule_set:
@@ -419,10 +406,6 @@ rules:
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Microsoft.txt
     policy: Microsoft
-    update_interval: 86400
-- rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/LinkedIn/LinkedIn.list
-    policy: LinkedIn
     update_interval: 86400
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Crypto.txt
