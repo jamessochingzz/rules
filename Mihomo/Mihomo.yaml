@@ -134,6 +134,6 @@ rule-providers:
   Crypto:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Crypto.mrs }
   PayPal:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/PayPal.mrs }
   Steam:          { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Steam/Steam.list }
-  Speedtest:      { <<: *rule-set-classical, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Speedtest.mrs }
+  Speedtest:      { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Speedtest.mrs }
   China:          { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/China.mrs }
   ChinaIP:        { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/China.mrs }
