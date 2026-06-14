@@ -93,7 +93,6 @@ rules:
   - RULE-SET,Facebook,Facebook
   - RULE-SET,FacebookIP,Facebook,no-resolve
   - RULE-SET,Microsoft,Microsoft
-  - RULE-SET,LinkedIn,LinkedIn
   - RULE-SET,Crypto,Crypto
   - RULE-SET,PayPal,PayPal
   - RULE-SET,Steam,Steam
@@ -130,7 +129,6 @@ rule-providers:
   Facebook:       { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Facebook.mrs }
   FacebookIP:     { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Facebook.mrs }
   Microsoft:      { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Microsoft.mrs }
-  LinkedIn:       { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/LinkedIn/LinkedIn.list }
   Crypto:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Crypto.mrs }
   PayPal:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/PayPal.mrs }
   Steam:          { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Steam/Steam.list }
