@@ -86,7 +86,6 @@ rules:
   - RULE-SET,Emby,Emby
   - RULE-SET,Emby_HK-BEUP,Emby_HK-BEUP
   - RULE-SET,BiliBili,Bilibili
-  - RULE-SET,BiliBiliIP,Bilibili,no-resolve
   - RULE-SET,AI,AI
   - RULE-SET,AIIP,AI,no-resolve
   - RULE-SET,Google,Google
@@ -124,7 +123,6 @@ rule-providers:
   Emby:           { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.txt }
   Emby_HK-BEUP:   { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.txt }
   BiliBili:       { <<: *rule-set-domain, url: https://github.com/QuixoticHeart/rule-set/raw/ruleset/meta/domain/bilibili.mrs }
-  BiliBiliIP:     { <<: *rule-set-ipcidr, url: https://github.com/QuixoticHeart/rule-set/raw/ruleset/meta/ipcidr/bilibili.mrs }
   AI:             { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/AI.mrs }
   AIIP:           { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/AI.mrs }
   Google:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Google.mrs }
