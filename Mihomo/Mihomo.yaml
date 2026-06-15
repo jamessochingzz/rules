@@ -52,7 +52,6 @@ proxy-groups:
   - {name: Google, type: select, include-all: true, filter: *filter-gg, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Google.png}
   - {name: Facebook, type: select, include-all: true, filter: *filter-gg, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Facebook.png}
   - {name: Microsoft, type: select, include-all: true, filter: *filter-gg, proxies: *direct, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Microsoft.png}
-  - {name: LinkedIn, type: select, include-all: true, filter: *filter-gg, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Lab.png}
   - {name: Crypto, type: select, include-all: true, filter: *filter-gg, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Cydia.png}
   - {name: PayPal, type: select, include-all: true, filter: *filter-sj, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/PayPal.png}
   - {name: Steam, type: select, include-all: true, filter: *filter-gg, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Game.png}
