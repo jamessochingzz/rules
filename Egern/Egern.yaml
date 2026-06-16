@@ -127,7 +127,7 @@ policy_groups:
     - Japan
     - Singapore
     - Taiwan
-    - SanJose
+    - VPS
     flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Rocket.png
@@ -141,7 +141,7 @@ policy_groups:
     - Japan
     - Singapore
     - Taiwan
-    - SanJose
+    - VPS
     flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Emby.png
@@ -182,7 +182,7 @@ policy_groups:
     - Japan
     - Singapore
     - Taiwan
-    - SanJose
+    - VPS
     flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Lab.png
@@ -196,7 +196,7 @@ policy_groups:
     - Japan
     - Singapore
     - Taiwan
-    - SanJose
+    - VPS
     flatten: false
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Telegram.png
@@ -317,7 +317,7 @@ policy_groups:
     policies:
     - PROXY
     flatten: true
-    filter: 美国|US|圣何塞
+    filter: 美国|US|圣何塞|洛杉矶
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/UnitedStates.png
 - select:
@@ -345,11 +345,11 @@ policy_groups:
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Taiwan.png
 - select:
-    name: SanJose
+    name: VPS
     policies:
     - PROXY
     flatten: true
-    filter: 圣何塞
+    filter: 圣何塞|洛杉矶
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/UnitedStates.png
 - fallback:
