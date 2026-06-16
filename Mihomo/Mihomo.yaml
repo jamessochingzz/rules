@@ -88,6 +88,7 @@ rules:
   - RULE-SET,BiliBili,Bilibili
   - RULE-SET,GitHub,GitHub
   - RULE-SET,Telegram,Telegram
+  - RULE-SET,TelegramIP,Telegram,no-resolve
   - RULE-SET,AI,AI
   - RULE-SET,AIIP,AI,no-resolve
   - RULE-SET,Google,Google
