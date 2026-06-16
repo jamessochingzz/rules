@@ -48,7 +48,7 @@ proxy-groups:
   - {name: Emby, type: select, include-all: true, filter: *filter-sj, proxies: *direct, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Emby.png}
   - {name: Emby_HK-BEUP, type: select, include-all: true, filter: *filter-em, proxies: [DIRECT], icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Emby.png}
   - {name: Bilibili, type: select, include-all: true, filter: *filter-cn, proxies: *direct, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/bilibili.png}
-  - {name: Github, type: select, include-all: true, filter: *filter-sj, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Lab.png}
+  - {name: GitHub, type: select, include-all: true, filter: *filter-sj, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Lab.png}
   - {name: Telegram, type: select, include-all: true, filter: *filter-sj, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Telegram.png}
   - {name: AI, type: select, include-all: true, filter: *filter-sj, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Bot.png}
   - {name: Google, type: select, include-all: true, filter: *filter-gg, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Google.png}
