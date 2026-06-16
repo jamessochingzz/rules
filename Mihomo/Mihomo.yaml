@@ -48,6 +48,8 @@ proxy-groups:
   - {name: Emby, type: select, include-all: true, filter: *filter-sj, proxies: *direct, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Emby.png}
   - {name: Emby_HK-BEUP, type: select, include-all: true, filter: *filter-em, proxies: [DIRECT], icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Emby.png}
   - {name: Bilibili, type: select, include-all: true, filter: *filter-cn, proxies: *direct, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/bilibili.png}
+  - {name: Github, type: select, include-all: true, filter: *filter-sj, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/bilibili.png}
+  - {name: Telegram, type: select, include-all: true, filter: *filter-sj, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/bilibili.png}  
   - {name: AI, type: select, include-all: true, filter: *filter-sj, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Bot.png}
   - {name: Google, type: select, include-all: true, filter: *filter-gg, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Google.png}
   - {name: Facebook, type: select, include-all: true, filter: *filter-gg, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Facebook.png}
@@ -71,7 +73,6 @@ rules:
   - RULE-SET,Private,DIRECT
   - RULE-SET,PrivateIP,DIRECT,no-resolve
   - RULE-SET,Proxy,Proxies
-  - RULE-SET,GitHub,Proxies
   - RULE-SET,HongKong,HongKong
   - RULE-SET,Apple_Proxy,UnitedStates
   - RULE-SET,Apple,Apple
@@ -85,6 +86,8 @@ rules:
   - RULE-SET,Emby,Emby
   - RULE-SET,Emby_HK-BEUP,Emby_HK-BEUP
   - RULE-SET,BiliBili,Bilibili
+  - RULE-SET,GitHub,GitHub
+  - RULE-SET,Telegram,Telegram
   - RULE-SET,AI,AI
   - RULE-SET,AIIP,AI,no-resolve
   - RULE-SET,Google,Google
@@ -107,7 +110,6 @@ rule-providers:
   Private:        { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Private.mrs }
   PrivateIP:      { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Private.mrs }
   Proxy:          { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Proxy.txt }
-  GitHub:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/GitHub.mrs }
   HongKong:       { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/HongKong.txt }
   Apple_Proxy:    { <<: *rule-set-domain, url: https://github.com/QuixoticHeart/rule-set/raw/ruleset/meta/domain/apple-proxy.mrs }
   Apple:          { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Apple.mrs }
@@ -121,6 +123,9 @@ rule-providers:
   Emby:           { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.txt }
   Emby_HK-BEUP:   { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.txt }
   BiliBili:       { <<: *rule-set-domain, url: https://github.com/QuixoticHeart/rule-set/raw/ruleset/meta/domain/bilibili.mrs }
+  GitHub:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/GitHub.mrs }
+  Telegram:       { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Telegram.mrs }
+  TelegramIP:     { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Telegram.mrs }  
   AI:             { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/AI.mrs }
   AIIP:           { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/AI.mrs }
   Google:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Google.mrs }
