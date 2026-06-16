@@ -1,14 +1,14 @@
 x-filter-hk:    &filter-hk    "HK|香港"
-x-filter-us:    &filter-us    "US|美国|圣何塞"
+x-filter-us:    &filter-us    "US|美国|圣何塞|洛杉矶"
 x-filter-jp:    &filter-jp    "JP|日本"
 x-filter-sg:    &filter-sg    "SG|新加坡"
 x-filter-tw:    &filter-tw    "TW|台湾"
 x-filter-cn:    &filter-cn    "MO|CN|澳门"
 x-filter-nf:    &filter-nf    "EG|TR|NG|埃及|土耳其|尼日利亚"
 x-filter-pv:    &filter-pv    "EG|CA|TR|埃及|加拿大|土耳其"
-x-filter-gg:    &filter-gg    "^(?=.*圣何塞)|^(?!.*(HK|SG|US|JP|TW|香港|新加坡|美国|日本|台湾|Emby)).*$"
-x-filter-sp:    &filter-sp    "TR|NG|土耳其|尼日利亚|圣何塞"
-x-filter-sj:    &filter-sj    "圣何塞"
+x-filter-gg:    &filter-gg    "^(?=.*圣何塞|洛杉矶)|^(?!.*(HK|SG|US|JP|TW|香港|新加坡|美国|日本|台湾|Emby)).*$"
+x-filter-sp:    &filter-sp    "TR|NG|土耳其|尼日利亚|圣何塞|洛杉矶"
+x-filter-sj:    &filter-sj    "圣何塞|洛杉矶"
 x-filter-em:    &filter-em    "Emby"
 
 x-direct:       &direct       [DIRECT, Proxies, HongKong, UnitedStates, Japan, Singapore, Taiwan]
