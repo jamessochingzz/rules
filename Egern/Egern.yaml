@@ -351,7 +351,7 @@ policy_groups:
     flatten: true
     filter: 圣何塞|洛杉矶
     hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/UnitedStates.png
+    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Server.png
 - fallback:
     name: Nigeria
     policies:
