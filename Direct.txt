@@ -7,3 +7,5 @@ DOMAIN,ts.wybm.cyou
 DOMAIN,xsj.wybm.cyou
 
 DOMAIN,cable.auth.com
+IP-CIDR,192.220.12.83/32,no-resolve
+IP-CIDR,147.125.252.193/32,no-resolve
