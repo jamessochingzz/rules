@@ -1,3 +1,0 @@
-# > WYBM
-DOMAIN-SUFFIX,wybm.cyou
-DOMAIN,www.popmart.com
