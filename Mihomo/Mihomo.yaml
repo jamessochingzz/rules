@@ -72,7 +72,6 @@ rules:
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Private,DIRECT
   - RULE-SET,PrivateIP,DIRECT,no-resolve
-  - RULE-SET,Proxy,Proxies
   - RULE-SET,HongKong,HongKong
   - RULE-SET,Apple_Proxy,UnitedStates
   - RULE-SET,Apple,Apple
@@ -110,7 +109,6 @@ rule-providers:
   Direct:         { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Direct.txt }
   Private:        { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Private.mrs }
   PrivateIP:      { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Private.mrs }
-  Proxy:          { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Proxy.txt }
   HongKong:       { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/HongKong.txt }
   Apple_Proxy:    { <<: *rule-set-domain, url: https://github.com/QuixoticHeart/rule-set/raw/ruleset/meta/domain/apple-proxy.mrs }
   Apple:          { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Apple.mrs }
