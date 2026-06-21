@@ -1,6 +1,3 @@
-DOMAIN-KEYWORD,bluefocusgroup
-DOMAIN-SUFFIX,bluefocusgroup.com
-
 DOMAIN,ts.wybm.cyou
 DOMAIN,xsj.wybm.cyou
 
