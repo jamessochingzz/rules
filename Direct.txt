@@ -2,8 +2,6 @@ DOMAIN,ts.wybm.cyou
 DOMAIN,xsj.wybm.cyou
 
 DOMAIN,cable.auth.com
-DOMAIN-SUFFIX,mail.icloud.com.cn
-DOMAIN-SUFFIX,mail.me.com
 DOMAIN,imap.gmail.com
 
 IP-CIDR,192.220.12.83/32,no-resolve
