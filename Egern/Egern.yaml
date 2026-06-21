@@ -381,10 +381,6 @@ rules:
     policy: DIRECT
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Proxy.txt
-    policy: PROXY
-    update_interval: 86400
-- rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/surge/apple-proxy.list
     policy: UnitedStates
     update_interval: 86400
