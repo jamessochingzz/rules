@@ -368,6 +368,10 @@ rules:
     match: CoolK1D
     policy: DIRECT
     disabled: false
+- dest_port:
+    match: 993
+    policy: DIRECT
+    disabled: false
 - rule_set:
     match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Direct.txt
     policy: DIRECT
