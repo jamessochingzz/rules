@@ -369,7 +369,7 @@ rules:
     policy: DIRECT
     disabled: false
 - dest_port:
-    match: 993
+    match: "993"
     policy: DIRECT
     disabled: false
 - rule_set:
