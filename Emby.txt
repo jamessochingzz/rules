@@ -4,5 +4,4 @@ DOMAIN-SUFFIX,313445.xyz
 DOMAIN,v1.uhdnow.com
 DOMAIN-SUFFIX,uhdnow.com
 
-DOMAIN-SUFFIX,wybm.cyou
 DOMAIN,www.popmart.com
