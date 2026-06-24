@@ -1,5 +1,4 @@
-DOMAIN,ts.wybm.cyou
-DOMAIN,xsj.wybm.cyou
+DOMAIN-SUFFIX,wybm.cyou
 
 DOMAIN,cable.auth.com
 DOMAIN,imap.gmail.com
