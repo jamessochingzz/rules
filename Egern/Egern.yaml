@@ -373,99 +373,99 @@ rules:
     policy: VPS
     disabled: false
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Direct.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Direct.txt
     policy: DIRECT
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Private.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Private.txt
     policy: DIRECT
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/surge/apple-proxy.list
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/surge/apple-proxy.list
     policy: UnitedStates
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Apple.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Apple.txt
     policy: Apple
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Netflix.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Netflix.txt
     policy: Netflix
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/surge/primevideo.list
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/surge/primevideo.list
     policy: PrimeVideo
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/YouTube.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/YouTube.txt
     policy: YouTube
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Spotify.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Spotify.txt
     policy: Spotify
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/TikTok.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/TikTok.txt
     policy: TikTok
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/F1.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/F1.txt
     policy: F1
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.txt
     policy: Emby
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.txt
     policy: Emby_HK-BEUP
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/surge/bilibili.list
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/surge/bilibili.list
     policy: Bilibili
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/GitHub.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/GitHub.txt
     policy: GitHub
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Telegram.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Telegram.txt
     policy: Telegram
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/AI.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/AI.txt
     policy: AI
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Google.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Google.txt
     policy: Google
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Facebook.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Facebook.txt
     policy: Facebook
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Microsoft.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Microsoft.txt
     policy: Microsoft
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Crypto.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Crypto.txt
     policy: Crypto
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/PayPal.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/PayPal.txt
     policy: PayPal
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Steam/Steam.list
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Steam/Steam.list
     policy: Steam
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Speedtest.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Speedtest.txt
     policy: Speedtest
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.cn/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/China.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/China.txt
     policy: DIRECT
     update_interval: 86400
 - default:
