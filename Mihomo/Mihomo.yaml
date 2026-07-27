@@ -107,10 +107,10 @@ rules:
 
 
 rule-providers:
-  Direct:         { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Direct.txt }
+  Direct:         { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Direct.txt }
   Private:        { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Private.mrs }
   PrivateIP:      { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Private.mrs }
-  HongKong:       { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/HongKong.txt }
+  HongKong:       { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/HongKong.txt }
   Apple_Proxy:    { <<: *rule-set-domain, url: https://github.com/QuixoticHeart/rule-set/raw/ruleset/meta/domain/apple-proxy.mrs }
   Apple:          { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Apple.mrs }
   Netflix:        { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Netflix.mrs }
@@ -119,9 +119,9 @@ rule-providers:
   YouTube:        { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/YouTube.mrs }
   Spotify:        { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Spotify.mrs }
   TikTok:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/TikTok.mrs }
-  F1:             { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/F1.txt }
-  Emby:           { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.txt }
-  Emby_HK-BEUP:   { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.txt }
+  F1:             { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/F1.txt }
+  Emby:           { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.txt }
+  Emby_HK-BEUP:   { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.txt }
   BiliBili:       { <<: *rule-set-domain, url: https://github.com/QuixoticHeart/rule-set/raw/ruleset/meta/domain/bilibili.mrs }
   GitHub:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/GitHub.mrs }
   Telegram:       { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Telegram.mrs }
@@ -135,7 +135,7 @@ rule-providers:
   Microsoft:      { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Microsoft.mrs }
   Crypto:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Crypto.mrs }
   PayPal:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/PayPal.mrs }
-  Steam:          { <<: *rule-set-classical, url: https://github.dytst.cn/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Steam/Steam.list }
+  Steam:          { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Steam/Steam.list }
   Speedtest:      { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Speedtest.mrs }
   China:          { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/China.mrs }
   ChinaIP:        { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/China.mrs }
