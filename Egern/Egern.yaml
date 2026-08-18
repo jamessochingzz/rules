@@ -344,14 +344,6 @@ policy_groups:
     filter: 台湾|TW
     hidden: false
     icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Taiwan.png
-- select:
-    name: VPS
-    policies:
-    - PROXY
-    flatten: true
-    filter: 圣何塞|洛杉矶
-    hidden: false
-    icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Server.png
 - fallback:
     name: Nigeria
     policies:
@@ -370,7 +362,7 @@ rules:
     disabled: false
 - dest_port:
     match: "993"
-    policy: VPS
+    policy: DIRECT
     disabled: false
 - rule_set:
     match: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Direct.txt
