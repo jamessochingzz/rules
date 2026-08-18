@@ -54,8 +54,8 @@ proxy-groups:
   - {name: Google, type: select, include-all: true, filter: *filter-gg, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Google.png}
   - {name: Facebook, type: select, include-all: true, filter: *filter-gg, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Facebook.png}
   - {name: Microsoft, type: select, include-all: true, filter: *filter-gg, proxies: *direct, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Microsoft.png}
-  - {name: Crypto, type: select, include-all: true, filter: *filter-gg, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Cydia.png}
   - {name: PayPal, type: select, include-all: true, filter: *filter-sj, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/PayPal.png}
+  - {name: Crypto, type: select, include-all: true, filter: *filter-gg, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Cydia.png}
   - {name: Steam, type: select, include-all: true, filter: *filter-gg, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Game.png}
   - {name: Speedtest, type: select, include-all: true, filter: *filter-gg, proxies: *oversea, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/Speedtest.png}
   - {name: HongKong, type: select, include-all: true, filter: *filter-hk, icon: https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Icon/%23000000/HongKong.png}
@@ -96,8 +96,8 @@ rules:
   - RULE-SET,Facebook,Facebook
   - RULE-SET,FacebookIP,Facebook,no-resolve
   - RULE-SET,Microsoft,Microsoft
-  - RULE-SET,Crypto,Crypto
   - RULE-SET,PayPal,PayPal
+  - RULE-SET,Crypto,Crypto
   - RULE-SET,Steam,Steam
   - RULE-SET,Speedtest,Speedtest
   - RULE-SET,China,DIRECT
@@ -133,8 +133,8 @@ rule-providers:
   Facebook:       { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Facebook.mrs }
   FacebookIP:     { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Facebook.mrs }
   Microsoft:      { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Microsoft.mrs }
-  Crypto:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Crypto.mrs }
   PayPal:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/PayPal.mrs }
+  Crypto:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Crypto.mrs }
   Steam:          { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Steam/Steam.list }
   Speedtest:      { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Speedtest.mrs }
   China:          { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/China.mrs }
