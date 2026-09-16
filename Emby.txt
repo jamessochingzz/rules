@@ -2,6 +2,7 @@
 DOMAIN,matrix.313445.xyz
 DOMAIN-SUFFIX,313445.xyz
 DOMAIN,v1.uhdnow.com
+DOMAIN,v1.uhdgo.com
 DOMAIN-SUFFIX,uhdnow.com
 
 DOMAIN,www.popmart.com
