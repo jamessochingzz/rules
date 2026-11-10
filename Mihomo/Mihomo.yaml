@@ -75,6 +75,7 @@ rules:
   - RULE-SET,PrivateIP,DIRECT,no-resolve
   - RULE-SET,HongKong,HongKong
   - RULE-SET,Apple_Proxy,UnitedStates
+  - RULE-SET,Apple_AI,UnitedStates  
   - RULE-SET,Apple,Apple
   - RULE-SET,Netflix,Netflix
   - RULE-SET,NetflixIP,Netflix
@@ -112,6 +113,7 @@ rule-providers:
   PrivateIP:      { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Private.mrs }
   HongKong:       { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/HongKong.txt }
   Apple_Proxy:    { <<: *rule-set-domain, url: https://github.com/QuixoticHeart/rule-set/raw/ruleset/meta/domain/apple-proxy.mrs }
+  Apple_AI:       { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Apple_AI.txt }
   Apple:          { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Apple.mrs }
   Netflix:        { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Netflix.mrs }
   NetflixIP:      { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Netflix.mrs }
