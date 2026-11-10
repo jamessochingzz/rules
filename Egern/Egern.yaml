@@ -377,6 +377,10 @@ rules:
     policy: UnitedStates
     update_interval: 86400
 - rule_set:
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Apple_AI.txt
+    policy: UnitedStates
+    update_interval: 86400
+- rule_set:
     match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Apple.txt
     policy: Apple
     update_interval: 86400
