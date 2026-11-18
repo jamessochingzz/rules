@@ -1,4 +1,5 @@
 DOMAIN-SUFFIX,wybm.cyou
+DOMAIN-SUFFIX,hkticketing.com
 
 DOMAIN,cable.auth.com
 DOMAIN,imap.gmail.com
