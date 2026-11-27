@@ -67,7 +67,7 @@ proxy-groups:
 
 
 rules:
-  - AND,((DST-PORT,443),(NETWORK,UDP),(NOT,((GEOIP,CN,no-resolve)))),REJECT
+  - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((RULE-SET,China))),(NOT,((RULE-SET,ChinaIP,no-resolve)))),REJECT
   - DST-PORT,993,DIRECT
   - RULE-SET,Private,DIRECT
   - RULE-SET,PrivateIP,DIRECT,no-resolve
