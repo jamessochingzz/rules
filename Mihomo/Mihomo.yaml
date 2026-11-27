@@ -86,6 +86,7 @@ rules:
   - RULE-SET,Emby,Emby
   - RULE-SET,Emby_HK-BEUP,Emby_HK-BEUP
   - RULE-SET,BiliBili,Bilibili
+  - RULE-SET,BiliBiliIP,Bilibili,no-resolve
   - RULE-SET,GitHub,GitHub
   - RULE-SET,Telegram,Telegram
   - RULE-SET,TelegramIP,Telegram,no-resolve
@@ -98,7 +99,9 @@ rules:
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,PayPal,PayPal
   - RULE-SET,Crypto,Crypto
+  - RULE-SET,SteamCN,DIRECT
   - RULE-SET,Steam,Steam
+  - RULE-SET,SteamIP,Steam,no-resolve
   - RULE-SET,Speedtest,Speedtest
   - RULE-SET,China,DIRECT
   - RULE-SET,ChinaIP,DIRECT,no-resolve
@@ -124,6 +127,7 @@ rule-providers:
   Emby:           { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.txt }
   Emby_HK-BEUP:   { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.txt }
   BiliBili:       { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/meta/domain/bilibili.mrs }
+  BiliBiliIP:     { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/meta/ipcidr/bilibili.mrs }  
   GitHub:         { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/GitHub.mrs }
   Telegram:       { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Telegram.mrs }
   TelegramIP:     { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/ip/Telegram.mrs }  
@@ -136,7 +140,9 @@ rule-providers:
   Microsoft:      { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Microsoft.mrs }
   PayPal:         { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/PayPal.mrs }
   Crypto:         { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Crypto.mrs }
-  Steam:          { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Steam/Steam.list }
+  SteamCN:        { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/master/rule/Clash/SteamCN/SteamCN_OCD_Domain.mrs }
+  Steam:          { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/master/rule/Clash/Steam/Steam_OCD_Domain.mrs }
+  SteamIP:        { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/master/rule/Clash/Steam/Steam_OCD_IP.mrs }
   Speedtest:      { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Speedtest.mrs }
   China:          { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/China.mrs }
   ChinaIP:        { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/ip/China.mrs }
