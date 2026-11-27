@@ -108,35 +108,35 @@ rules:
 
 rule-providers:
   Direct:         { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Direct.txt }
-  Private:        { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Private.mrs }
-  PrivateIP:      { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Private.mrs }
+  Private:        { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Private.mrs }
+  PrivateIP:      { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/ip/Private.mrs }
   HongKong:       { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/HongKong.txt }
   Apple_Proxy:    { <<: *rule-set-domain, url: https://github.com/QuixoticHeart/rule-set/raw/ruleset/meta/domain/apple-proxy.mrs }
   Apple_AI:       { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Apple_AI.txt }
-  Apple:          { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Apple.mrs }
-  Netflix:        { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Netflix.mrs }
-  NetflixIP:      { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Netflix.mrs }
+  Apple:          { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Apple.mrs }
+  Netflix:        { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Netflix.mrs }
+  NetflixIP:      { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/ip/Netflix.mrs }
   PrimeVideo:     { <<: *rule-set-domain, url: https://github.com/QuixoticHeart/rule-set/raw/ruleset/meta/domain/primevideo.mrs }
-  YouTube:        { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/YouTube.mrs }
-  Spotify:        { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Spotify.mrs }
-  TikTok:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/TikTok.mrs }
+  YouTube:        { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/YouTube.mrs }
+  Spotify:        { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Spotify.mrs }
+  TikTok:         { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/TikTok.mrs }
   F1:             { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/F1.txt }
   Emby:           { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.txt }
   Emby_HK-BEUP:   { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.txt }
   BiliBili:       { <<: *rule-set-domain, url: https://github.com/QuixoticHeart/rule-set/raw/ruleset/meta/domain/bilibili.mrs }
-  GitHub:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/GitHub.mrs }
-  Telegram:       { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Telegram.mrs }
-  TelegramIP:     { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Telegram.mrs }  
-  AI:             { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/AI.mrs }
-  AIIP:           { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/AI.mrs }
-  Google:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Google.mrs }
-  GoogleIP:       { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Google.mrs }
-  Facebook:       { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Facebook.mrs }
-  FacebookIP:     { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Facebook.mrs }
-  Microsoft:      { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Microsoft.mrs }
-  PayPal:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/PayPal.mrs }
-  Crypto:         { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Crypto.mrs }
+  GitHub:         { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/GitHub.mrs }
+  Telegram:       { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Telegram.mrs }
+  TelegramIP:     { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/ip/Telegram.mrs }  
+  AI:             { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/AI.mrs }
+  AIIP:           { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/ip/AI.mrs }
+  Google:         { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Google.mrs }
+  GoogleIP:       { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/ip/Google.mrs }
+  Facebook:       { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Facebook.mrs }
+  FacebookIP:     { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/ip/Facebook.mrs }
+  Microsoft:      { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Microsoft.mrs }
+  PayPal:         { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/PayPal.mrs }
+  Crypto:         { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Crypto.mrs }
   Steam:          { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Steam/Steam.list }
-  Speedtest:      { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Speedtest.mrs }
-  China:          { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/China.mrs }
-  ChinaIP:        { <<: *rule-set-ipcidr, url: https://github.com/666OS/rules/raw/release/mihomo/ip/China.mrs }
+  Speedtest:      { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Speedtest.mrs }
+  China:          { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/China.mrs }
+  ChinaIP:        { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/ip/China.mrs }
