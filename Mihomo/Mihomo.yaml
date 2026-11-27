@@ -78,7 +78,7 @@ rules:
   - RULE-SET,Apple_AI,UnitedStates  
   - RULE-SET,Apple,Apple
   - RULE-SET,Netflix,Netflix
-  - RULE-SET,NetflixIP,Netflix
+  - RULE-SET,NetflixIP,Netflix,no-resolve
   - RULE-SET,PrimeVideo,PrimeVideo
   - RULE-SET,YouTube,YouTube
   - RULE-SET,Spotify,Spotify
