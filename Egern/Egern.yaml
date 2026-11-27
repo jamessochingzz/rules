@@ -364,11 +364,11 @@ rules:
     policy: DIRECT
     disabled: false
 - rule_set:
-    match: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Direct.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Private.txt
     policy: DIRECT
     update_interval: 86400
 - rule_set:
-    match: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/refs/heads/release/surge/Private.txt
+    match: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Direct.txt
     policy: DIRECT
     update_interval: 86400
 - rule_set:
