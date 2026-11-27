@@ -74,7 +74,7 @@ rules:
   - RULE-SET,Direct,DIRECT
   - RULE-SET,HongKong,HongKong
   - RULE-SET,Apple_Proxy,UnitedStates
-  - RULE-SET,Apple_AI,UnitedStates  
+  - RULE-SET,Apple_AI,UnitedStates
   - RULE-SET,Apple,Apple
   - RULE-SET,Netflix,Netflix
   - RULE-SET,NetflixIP,Netflix,no-resolve
@@ -127,10 +127,10 @@ rule-providers:
   Emby:           { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby.txt }
   Emby_HK-BEUP:   { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Emby_HK-BEUP.txt }
   BiliBili:       { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/meta/domain/bilibili.mrs }
-  BiliBiliIP:     { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/meta/ipcidr/bilibili.mrs }  
+  BiliBiliIP:     { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/meta/ipcidr/bilibili.mrs }
   GitHub:         { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/GitHub.mrs }
   Telegram:       { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Telegram.mrs }
-  TelegramIP:     { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/ip/Telegram.mrs }  
+  TelegramIP:     { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/ip/Telegram.mrs }
   AI:             { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/AI.mrs }
   AIIP:           { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/ip/AI.mrs }
   Google:         { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Google.mrs }
