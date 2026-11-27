@@ -69,9 +69,9 @@ proxy-groups:
 rules:
   - AND,((DST-PORT,443),(NETWORK,UDP),(NOT,((GEOIP,CN,no-resolve)))),REJECT
   - DST-PORT,993,DIRECT
-  - RULE-SET,Direct,DIRECT
   - RULE-SET,Private,DIRECT
   - RULE-SET,PrivateIP,DIRECT,no-resolve
+  - RULE-SET,Direct,DIRECT
   - RULE-SET,HongKong,HongKong
   - RULE-SET,Apple_Proxy,UnitedStates
   - RULE-SET,Apple_AI,UnitedStates  
@@ -107,9 +107,9 @@ rules:
 
 
 rule-providers:
-  Direct:         { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Direct.txt }
   Private:        { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Private.mrs }
   PrivateIP:      { <<: *rule-set-ipcidr, url: https://github.dytst.dev/https://raw.githubusercontent.com/666OS/rules/release/mihomo/ip/Private.mrs }
+  Direct:         { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Direct.txt }
   HongKong:       { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/HongKong.txt }
   Apple_Proxy:    { <<: *rule-set-domain, url: https://github.dytst.dev/https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/meta/domain/apple-proxy.mrs }
   Apple_AI:       { <<: *rule-set-classical, url: https://github.dytst.dev/https://raw.githubusercontent.com/jamessochingzz/rules/refs/heads/main/Apple_AI.txt }
